@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aftos/Games</title>
+<style>
+ body {
+    margin: 0;
+    background-color: #13294B;
+    font-family: "EB Garamond";
+    color: #fff;
+  }
+
+  /* --- Barra de navegación --- */
+  nav {
+    background-color: #0e1a2b;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  /* --- Estilo de los botones --- */
+  .nav-logo {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(#1e2f4d, #14233a);
+    border: 1px solid #243b61;
+    margin-right: 3px;
+    transition: all 0.3s ease;
+    float: left;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(#1e2f4d, #14233a);
+    border: 1px solid #243b61;
+    margin-right: 3px;
+    transition: all 0.3s ease;
+  }
+
+  /* --- Hover y botón activo --- */
+  nav ul li a:hover {
+    background: linear-gradient(#2a4b7c, #1b3152);
+  }
+
+  nav ul li a.active {
+    background: linear-gradient(#79c96c, #5eb45a);
+    color: #000;
+  }
+
+  /* --- Submenú desplegable --- */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #14233a;
+    border: 1px solid #243b61;
+    min-width: 180px;
+    z-index: 10;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+  }
+
+  nav ul li ul li a {
+    background: #14233a;
+    border: none;
+    padding: 10px 15px;
+    color: #ddd;
+    font-weight: normal;
+  }
+
+  nav ul li ul li a:hover {
+    background: #1f3c68;
+    color: #fff;
+  }
+
+
+  /* Estilo del banner */
+.banner {
+  position: relative;
+  background-image: url("assets/imgs/banner.jpeg"); /* <-- ruta de tu imagen */
+  background-size: cover;     /* La imagen se ajusta al ancho */
+  background-position: center; /* Centrada */
+  height: 400px;               /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Capa oscura encima de la imagen para mejorar contraste */
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5); /* Oscurece la imagen */
+  z-index: 1;
+}
+
+/* Contenido del banner */
+.banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Botón del banner */
+.btn-banner {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-banner:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<nav>
+
+
+    <ul>
+        <li>
+             <a class="nav-logo" href="index4.html">
+            <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" class="me-2">
+            </a>
+        </li>
+        <li><a class="nav-link" href="index4.html">Home</a></li>
+        <li><a class="nav-link" href="#">About Us</a></li>
+        <li><a  class="nav-link" href="games.html">Games</a></li>
+        <li>
+        <a href="#">Support Us ▾</a>
+        <ul>
+          <li><a href="#">Donations</a></li>
+          <li><a href="#">Kickstart</a></li>
+          <li><a href="#">Merchandise</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Contáctanos ▾</a>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+    </li>
+    </ul>
+  </nav>
+  
+<section>
+    <h1 style="text-align: center">NUESTROS JUEGOS</h1>
+</section>
+<section class="banner">
+    <!-- <div class="banner-content">
+      <h1>Aftos es un estudio madrileño de desarrollo de videojuegos. Creando "Afesis"<div class=""></div></h1>
+      <p>Somos un estudio de videojuegos y creación audiovisual que advoca por la 
+        cultura, el talento de jóvenes creadores y las historias que inspiran
+      </p>
+      <a href="aboutUs.html" class="btn-banner">Sobre nosotros</a>
+    </div> -->
+  </section>
+
+
+
+</body>
+</html>
