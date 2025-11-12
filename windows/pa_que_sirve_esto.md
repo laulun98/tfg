@@ -7,14 +7,18 @@ Pero weno, si necesitas usarlo en algun lado que no puedas instalar node (por pe
 # COMO USAR
 
 ```powershell
+
 cd windows
 .\node_insti.ps1
+
 ```
 
 - Si te dice que no se pueden ejecutar scripts, pon esto:
 
 ```powershell
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 ```
 
 (solo sirve para esta sesión, cuando cierres visual se vuelven a poner los permisos)
