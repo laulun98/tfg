@@ -4,6 +4,7 @@ Me he dejado el cargador del portátil en casa y no tengo batería, paula xdd
 Llevo toda la tarde para instalar node y poder usar vue, empece a las 5 y son las 8, toy harta.
 Pero weno, si necesitas usarlo en algun lado que no puedas instalar node (por permisos o lo que sea), haz esto:
 (También si necesitas usarlo en cualquier otro repo, copiate la carpeta y yata, que tmb viene bien)
+
 # COMO USAR
 
 ```powershell
