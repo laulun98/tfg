@@ -5,6 +5,8 @@ Llevo toda la tarde para instalar node y poder usar vue, empece a las 5 y son la
 Pero weno, si necesitas usarlo en algun lado que no puedas instalar node (por permisos o lo que sea), haz esto:
 (También si necesitas usarlo en cualquier otro repo, copiate la carpeta y yata, que tmb viene bien)
 
+Ten en cuenta también que si lo utilizas en un ordenador que ya tenga una versión de node.js instalada, no funcionará y dará error.
+
 # COMO USAR
 
 ```powershell
