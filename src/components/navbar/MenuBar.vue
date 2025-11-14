@@ -1,11 +1,20 @@
 <template>
-    <div>
-        <nav style="display: flex; gap: 5px;">
-            <div style="border: 1px solid black; margin: 5px; padding: 20px">
+    <div style="width: 100%">
+        <nav style="display: flex; justify-content: center; gap: 5px;">
+            <div class="links">
+                <RouterLink to="/home">Home</RouterLink>
+            </div>
+            <div class="links">
                 <RouterLink to="/about">About Us</RouterLink>
             </div>
-            <div style="border: 1px solid black; margin: 5px; padding: 20px">
+            <div class="links">
                 <RouterLink to="/support">Support Us</RouterLink>
+            </div>
+            <div class="links">
+                <RouterLink to="/games">Games</RouterLink>
+            </div>
+            <div class="links">
+                <RouterLink to="/contact">Contact Us</RouterLink>
             </div>
         </nav>
         <RouterView />

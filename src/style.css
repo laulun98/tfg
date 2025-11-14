@@ -1,8 +1,19 @@
-:root {
-  background-color: #091425;
+body {
+  background-color: #13294B;
   color:#FFFFFF;
 }
 
 a {
-  font-size: 25px;
+  font-size: 20px;
+  border-color: #13294B;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links {
+  border: 1px solid black; 
+  margin: 1px; 
+  padding: 15px; 
+  background: linear-gradient(#1e2f4d, #14233a);
 }
