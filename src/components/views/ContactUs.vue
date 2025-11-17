@@ -1,9 +1,8 @@
 <template>
-    <div class="header">
-        <h1>Contact Us</h1>
-    </div>
+    <PageHeader title="Contact Us"/>
 </template>
 
 <script setup>
+import PageHeader from '../ui/PageHeader.vue';
 
 </script>

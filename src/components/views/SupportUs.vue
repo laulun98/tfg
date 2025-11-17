@@ -1,10 +1,5 @@
 <template>
     <PageHeader title="'Support Us'"/>
-    <!-- 
-    <div class="header"  style="margin-bottom: 20px;">
-        <h1>Support Us</h1>
-    </div>
-    -->
     <div style="margin-bottom: 80px;">
         <div>
             <h2>¡Ayúdanos a seguir creando juegos!</h2>
@@ -21,10 +16,12 @@
     <div class="donate-container">
         <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'"/>
     </div>
+    <UIFooter/>
 </template>
 
 <script setup>
 import LinkedImage from './../ui/LinkedImage.vue';
 import PageHeader from '../ui/PageHeader.vue';
+import UIFooter from '../ui/UIFooter.vue';
 
 </script>

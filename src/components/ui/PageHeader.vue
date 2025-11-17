@@ -1,5 +1,5 @@
 <template>
-    <div class="secondary_banner">
+    <div :class=bannerStyle>
         <h1> {{ title }}</h1>
     </div>
 </template>
@@ -14,6 +14,10 @@ const props = defineProps({
     imgSrc: {
         type: String,
         default: 'assets/imgs/banner.jpeg'
+    }, 
+    bannerStyle: {
+        type: String,
+        default: 'secondary_banner' //puede ser banner (para el home) o secondary_banner (para el resto)
     }
 })
 

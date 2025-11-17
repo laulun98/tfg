@@ -1,7 +1,8 @@
 <template>
-  <HelloWorld/>
+  <MenuBar/>
 </template>
 
 <script setup>
-  import HelloWorld from './components/HelloWorld.vue'
+import MenuBar from './components/navbar/MenuBar.vue';
+
 </script>

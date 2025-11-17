@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Home"/>
+    <PageHeader title="Home" :bannerStyle="'banner'"/>
 </template>
 
 <script setup>
