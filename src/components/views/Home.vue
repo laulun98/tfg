@@ -1,6 +1,7 @@
 <template>
-    <h1>Home</h1>
+    <PageHeader title="Home"/>
 </template>
 
 <script setup>
+import PageHeader from '../ui/PageHeader.vue';
 </script>
