@@ -14,11 +14,11 @@ a {
 }
 
 .links {
-  border: 1px solid black; 
-  margin: 1px; 
-  padding: 15px; 
+  border: 1px solid black;
+  margin: 1px;
+  padding: 10px;
   background: linear-gradient(#1e2f4d, #14233a);
-   }
+}
 
     /* --- Barra de navegación --- */
   nav {
@@ -206,4 +206,15 @@ a {
   background-color: #0e1a2b;
   padding: 20px;
   margin-top: 50px;
+  font-weight: lighter;
+  
+}
+
+.ui-footer a {
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.ui-footer h2 {
+  font-size: large;
 }
