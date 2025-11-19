@@ -1,0 +1,21 @@
+<template>
+ <div class="social-buttons">
+    <a href="https://linktr.ee/tu_usuario" target="_blank" title="Linktree">
+      <i class="fas fa-link"></i>
+    </a>
+    <a href="https://www.instagram.com/tu_usuario" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/tu_usuario" target="_blank" title="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.tiktok.com/@tu_usuario" target="_blank" title="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </div>
+
+</template>
+
+<script setup>
+
+</script>
