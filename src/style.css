@@ -327,3 +327,28 @@ a {
   button:hover {
     background-color: #0056b3;
   }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    /*border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;*/
+}
+
+.contact-card {
+    width: 30%;
+    text-align: left;
+}
+
+.contact-card h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fcd857;
+}
+
+.contact-card p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+

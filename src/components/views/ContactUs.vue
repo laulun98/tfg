@@ -6,6 +6,26 @@
 
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 
+    <div class="contact-section">
+
+    <div class="contact-card">
+        <h3>PRESS:</h3>
+        <p>Our Press Kits for each game <a href="#">live here</a>. Reach out to us any time for interviews and the like!</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>SUPPORT:</h3>
+        <p>Need help with your purchase or technical support on our games? Hit us up here.</p>
+       
+    </div>
+
+    <div class="contact-card">
+        <h3>FAN-MADE MERCH:</h3>
+        <p>Are you looking to sell fan-made merch and are wondering what our policy is?</p>
+    </div>
+
+</div>
+<div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
   <!-- formulario -->
   <section class="contact-container">
   <form action="#" method="post">
