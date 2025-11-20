@@ -1,5 +1,45 @@
 <template>
     <PageHeader title="Contact Us"/>
+
+
+<h3 style="text-align: center;">Aquí nos podéis contactar para cualquier cosa</h3>
+
+<div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
+
+  <!-- formulario -->
+  <section class="contact-container">
+  <form action="#" method="post">
+    
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="form-group">
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="asunto">Asunto</label>
+      <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+    </div>
+
+    <div class="form-group">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+
+</section>
+
+
+<div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
+
+
 </template>
 
 <script setup>

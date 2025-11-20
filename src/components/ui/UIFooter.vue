@@ -20,7 +20,7 @@
             <div>
                 <h2>Juegos</h2>
                 <ul>
-                    <li><RouterLink to="/afesios">Afesios</RouterLink></li>
+                    <li><RouterLink to="/afesios">Afésis</RouterLink></li>
                 </ul>
             </div>
             <div>
