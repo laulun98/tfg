@@ -53,9 +53,23 @@
     <button type="submit">Enviar</button>
 
   </form>
-
 </section>
 
+<div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
+
+<div class="contact-section">
+
+    <div class="contact-card">
+        <h3>SOCIAL</h3>
+        <p>Síguenos en redes sociales</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>WORK</h3>
+        <p>Quieres trabajar con nosotros</p>
+    </div>
+
+</div>
 
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 

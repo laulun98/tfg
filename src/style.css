@@ -281,7 +281,7 @@ a {
   }
 
   .form-group {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
   }
 
   label {
@@ -308,7 +308,7 @@ a {
 
   textarea {
     resize: vertical;
-    height: 120px;
+    height: 50px;
   }
 
   button {
