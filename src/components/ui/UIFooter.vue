@@ -3,6 +3,7 @@
         <div style="display:flex;  justify-content: center;">
             <div style="display:flex; flex-direction: column;">
                 <RouterLink to="/home" style="display: flex; justify-content: center;"><img :src="'assets/imgs/logo-removebg.png'" :alt="logo" style="height:auto; width:auto"/></RouterLink>
+               <div><SocialButton/></div>
                 <p> © Aftos Studios todos los derechos reservados | <RouterLink to="/privacy">Política de Privacidad</RouterLink></p>
             </div>
         </div>
@@ -19,7 +20,7 @@
             <div>
                 <h2>Juegos</h2>
                 <ul>
-                    <li><RouterLink to="/afesios">Afesios</RouterLink></li>
+                    <li><RouterLink to="/afesios">Afésis</RouterLink></li>
                 </ul>
             </div>
             <div>
@@ -36,4 +37,5 @@
 </template>
 
 <script setup>
+import SocialButton from './SocialButton.vue';
 </script>
