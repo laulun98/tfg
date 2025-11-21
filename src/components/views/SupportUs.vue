@@ -23,9 +23,11 @@
         </div>
         </div>
     </div>
+    <SocialButton/>
 </template>
 
 <script setup>
 import LinkedImage from './../ui/LinkedImage.vue';
 import PageHeader from '../ui/PageHeader.vue';
+import SocialButton from '../ui/SocialButton.vue';
 </script>
