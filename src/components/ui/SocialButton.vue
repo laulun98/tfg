@@ -1,15 +1,15 @@
 <template>
  <div class="social-buttons">
-    <a href="https://linktr.ee/tu_usuario" target="_blank" title="Linktree">
+    <a href="https://linktr.ee/aftosstudio" target="_blank" title="Linktree">
       <i class="fas fa-link"></i>
     </a>
-    <a href="https://www.instagram.com/tu_usuario" target="_blank" title="Instagram">
+    <a href="https://www.instagram.com/aftos_studio/" target="_blank" title="Instagram">
       <i class="fab fa-instagram"></i>
     </a>
-    <a href="https://twitter.com/tu_usuario" target="_blank" title="Twitter">
+    <a href="https://x.com/Aftos_Studio" target="_blank" title="Twitter">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="https://www.tiktok.com/@tu_usuario" target="_blank" title="TikTok">
+    <a href="https://www.tiktok.com/@aftos_studio" target="_blank" title="TikTok">
       <i class="fab fa-tiktok"></i>
     </a>
   </div>
