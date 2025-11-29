@@ -5,6 +5,8 @@ import SupportUs from '../components/views/SupportUs.vue'
 import Games from '../components/views/Games.vue'
 import Home from '../components/views/Home.vue'
 import ContactUs from '../components/views/ContactUs.vue'
+import Privacy from '../components/views/Privacy.vue'
+import Afesios from '../components/views/games_views/Afesis.vue'
 
 const routes = [
   {
@@ -32,6 +34,16 @@ const routes = [
     name: '/contact',
     component: ContactUs,
   }, 
+  {
+    path: '/privacy',
+    name: '/privacy',
+    component: Privacy,
+  },
+  {
+    path: '/afesios',
+    name: '/afesios',
+    component: Afesios,
+  },
 ]
 
 const router = createRouter({
