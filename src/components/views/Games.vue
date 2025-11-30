@@ -32,11 +32,11 @@ sombras que amenazan la fe y siente el peso de cada elección.
 
   <div class="gallery">
      <LinkedImage :src="'assets/imgs/steam.png'" :alt="'steam'" />
-    <img src="assets/imgs/img1.jpg" alt="Screenshot 1">
-    <img src="assets/imgs/img2.jpg" alt="Screenshot 2">
-    <img src="src/assets/imgs/img3.jpg" alt="Screenshot 3">
-    <img src="src/assets/imgs/img4.jpg" alt="Screenshot 4">
-    <img src="src/assets/imgs/img5.jpg" alt="Screenshot 5">
+    <img src="assets/imgs/img1.png" alt="Screenshot 1">
+    <img src="assets/imgs/img2.png" alt="Screenshot 2">
+    <img src="src/assets/imgs/img3.png" alt="Screenshot 3">
+    <img src="src/assets/imgs/img4.png" alt="Screenshot 4">
+    <img src="src/assets/imgs/img5.png" alt="Screenshot 5">
   </div>
 </section>
 </template>
