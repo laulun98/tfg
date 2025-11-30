@@ -31,15 +31,17 @@ sombras que amenazan la fe y siente el peso de cada elección.
   </a>
 
   <div class="gallery">
+     <LinkedImage :src="'assets/imgs/steam.png'" :alt="'steam'" />
     <img src="assets/imgs/img1.jpg" alt="Screenshot 1">
     <img src="assets/imgs/img2.jpg" alt="Screenshot 2">
-    <img src="assets/imgs/img3.jpg" alt="Screenshot 3">
-    <img src="assets/imgs/img4.jpg" alt="Screenshot 4">
-    <img src="assets/imgs/img5.jpg" alt="Screenshot 5">
+    <img src="src/assets/imgs/img3.jpg" alt="Screenshot 3">
+    <img src="src/assets/imgs/img4.jpg" alt="Screenshot 4">
+    <img src="src/assets/imgs/img5.jpg" alt="Screenshot 5">
   </div>
 </section>
 </template>
 
 <script setup>
 import PageHeader from '../ui/PageHeader.vue';
+import LinkedImage from './../ui/LinkedImage.vue';
 </script>
