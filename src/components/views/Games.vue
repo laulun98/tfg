@@ -6,6 +6,12 @@ adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos
 sombras que amenazan la fe y siente el peso de cada elección.
 </p>
 
+<section>
+    <h2>Pitch</h2>
+    <h2>Description</h2>
+    <h2>History</h2>
+    <h2>Features</h2>
+</section>
 
 <section class="section-presskit">
   <h2>Trailers</h2>
@@ -39,6 +45,13 @@ sombras que amenazan la fe y siente el peso de cada elección.
     <img src="" alt="Screenshot 6">
   </div> 
 </section>
+<div>
+ <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
+        </div>
+<div>
+    <p style="color: #fcd857;"><a href="SupportUs.vue">¿Quieres apoyar el proyecto?</a></p>
+
+</div>
 </template>
 
 <script setup>
