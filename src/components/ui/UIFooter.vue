@@ -2,7 +2,7 @@
     <div class="ui-footer" style="display:flex; flex-direction: column;">
         <div style="display:flex;  justify-content: center;">
             <div style="display:flex; flex-direction: column;">
-                <RouterLink to="/home" style="display: flex; justify-content: center;"><img :src="'assets/imgs/logo-chiki.png'" :alt="logo" style="height:260px; width:260px"/></RouterLink>
+                <RouterLink to="/home" style="display: flex; justify-content: center;"><img :src="'assets/imgs/IMAGOTIPO.png'" :alt="logo" style="height:100px; width:200px"/></RouterLink>
                <div><SocialButton/></div>
                 <p> © Aftos Studios todos los derechos reservados | <RouterLink to="/privacy">Política de Privacidad</RouterLink></p>
             </div>
