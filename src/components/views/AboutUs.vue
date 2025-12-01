@@ -9,7 +9,7 @@
             centrándonos en los valores y la moral cristiana. Nos encontramos desarrollando nuestro
             primer proyecto, centrado en explorar el concepto del perdón. </P>
             <!--
-            <RouterLink to="/careers">¿Quieres unirte a nosotros?</RouterLink>
+            <RouterLink to="/careers" class="red-link">¿Quieres unirte a nosotros?</RouterLink>
             -->
     </div>
 </template>

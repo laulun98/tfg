@@ -442,3 +442,8 @@ a {
 .home-content p{
   font-size: 20px;
 }
+
+.red-link {
+  color: #ff0000;
+  font-weight: bold;
+}
