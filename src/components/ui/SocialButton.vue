@@ -1,5 +1,5 @@
 <template>
- <div class="social-buttons">
+  <div class="social-buttons">
     <a class="btn-linktree" href="https://linktr.ee/aftosstudio" target="_blank" title="Linktree">
       <i class="fas fa-link"></i>
     </a>

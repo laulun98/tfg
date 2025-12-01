@@ -427,3 +427,18 @@ a {
   transform: scale(1.03);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.home-content p{
+  font-size: 20px;
+}
