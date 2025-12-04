@@ -8,8 +8,8 @@
                 Si quieres contribuir, puedes hacerlo por aquí:</p>
         </div>
     </div>
-    <div style="display:flex; flex-direction: row; justify-content: center;">
-        <div >
+    <div style="display:flex; flex-direction: row; justify-content: center; gap:0px">
+        <div>
             <img src="/assets/imgs/dimas-presenta-1.png" alt="Dimas" style="max-width: 85%; max-height: 85%;"/>
         </div>
         <div>

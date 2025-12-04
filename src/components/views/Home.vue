@@ -6,11 +6,9 @@
         <br><RouterLink to="/about" class="yellow-link">Leer más</RouterLink></P>
         <br>
         <RouterLink to="/games" class="yellow-link">Presskit de Afesis</RouterLink>
-        <SocialButton/>
     </div>
 </template>
 
 <script setup>
 import PageHeader from '../ui/PageHeader.vue';
-import SocialButton from '../ui/SocialButton.vue';
 </script>
