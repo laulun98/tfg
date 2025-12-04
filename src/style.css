@@ -127,12 +127,14 @@ a {
 }
 
 .donate {
+  margin-left: 0px;
   margin: 10px;
   /* border: 5px solid black; */
   border-radius: 20px;
 }
 
 .donate-container {
+  margin-left: 0px;
   display: flex;
   flex: row;
   justify-content: center;
