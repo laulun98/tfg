@@ -45,7 +45,7 @@ sombras que amenazan la fe y siente el peso de cada elección.
     <img src="" alt="Screenshot 6">
   </div> 
 </section>
-<div>
+<div style="margin-left: 120px;">
  <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
         </div>
 <div>
