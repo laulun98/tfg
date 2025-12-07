@@ -10,6 +10,9 @@ import Afesios from '../components/views/games_views/Afesis.vue'
 import Careers from '../components/views/Careers.vue'
 
 const routes = [
+  { 
+    path: '/', 
+    redirect: '/home' },
   {
     path: '/home',
     name: '/home',
