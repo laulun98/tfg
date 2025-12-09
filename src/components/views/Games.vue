@@ -37,12 +37,16 @@ sombras que amenazan la fe y siente el peso de cada elección.
   </a>
 
   <div class="gallery">
+    <div>
     <img src="" alt="Screenshot 1">
     <img src="" alt="Screenshot 2">
     <img src="" alt="Screenshot 3">
+  </div>
+  <div>
     <img src="" alt="Screenshot 4">
     <img src="" alt="Screenshot 5">
     <img src="" alt="Screenshot 6">
+  </div>
   </div> 
 </section>
 <div style="margin-left: 120px;">
