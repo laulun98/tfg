@@ -1,6 +1,6 @@
 <template>
     <div :class=bannerStyle>
-        <h1> {{ title }}</h1>
+        <h1 style="background-color: rgba(71, 52, 52, 0.4); padding:5px; border-radius: 80%; backdrop-filter: blur(1.5px);"> {{ title }}</h1>
     </div>
 </template>
 

@@ -1,5 +1,7 @@
 <template>
-  <MenuBar/>
+  <div style="border: 2px">
+    <MenuBar/>
+  </div>
   <UIFooter/>
 </template>
 

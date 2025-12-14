@@ -7,8 +7,12 @@ import Home from '../components/views/Home.vue'
 import ContactUs from '../components/views/ContactUs.vue'
 import Privacy from '../components/views/Privacy.vue'
 import Afesios from '../components/views/games_views/Afesis.vue'
+import Careers from '../components/views/Careers.vue'
 
 const routes = [
+  { 
+    path: '/', 
+    redirect: '/home' },
   {
     path: '/home',
     name: '/home',
@@ -43,6 +47,11 @@ const routes = [
     path: '/afesios',
     name: '/afesios',
     component: Afesios,
+  },
+  {
+    path: '/careers',
+    name: '/careers',
+    component: Careers,
   },
 ]
 

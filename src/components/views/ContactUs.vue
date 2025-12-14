@@ -20,8 +20,8 @@
     </div>
 
     <div class="contact-card">
-        <h3>FAN-MADE MERCH:</h3>
-        <p>Are you looking to sell fan-made merch and are wondering what our policy is?</p>
+        <h3>MERCH:</h3>
+        <p>Otra forma de apoyarnos sería comprando nuestro merch! Con diseños originales de nuestros juegos</p>
     </div>
 
 </div>
@@ -66,7 +66,7 @@
 
     <div class="contact-card">
         <h3>WORK</h3>
-        <p>Quieres trabajar con nosotros</p>
+        <p>¿Quieres trabajar con nosotros?</p>
     </div>
 
 </div>
