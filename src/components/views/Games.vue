@@ -52,7 +52,7 @@ ayudarnos a reencaminar nuestra vida. </p>
 
   <div class="gallery">
     <div>
-    <img src="assets/imgs/dimas_boceto.png" alt="Screenshot 1">
+    <img src="./assets/imgs/dimas_boceto.png" alt="Screenshot 1">
     <img src="" alt="Screenshot 2">
     <img src="" alt="Screenshot 3">
   </div>
