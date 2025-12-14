@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Games"/>
+    <PageHeader title=""/>
 
      <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
 adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las

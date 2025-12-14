@@ -1,5 +1,5 @@
 <template>
-    <PageHeader style="object-position: 30% 10%;" title="About Us" />
+    <PageHeader title="" />
     <div class="home-content">
         <h1>Aftos es un estudio madrileño de desarrollo de videojuegos. <br>Creando "Afesis"</h1>
         <P>Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el
