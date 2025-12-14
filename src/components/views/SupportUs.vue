@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="'Support Us'" />
+    <PageHeader title="" />
     <div style="margin-bottom: 80px; display: flex; justify-content: center;">
         <div style="display: flex; flex-direction: column;">
             <h1>¡Ayúdanos a seguir creando juegos!</h1>
@@ -8,7 +8,7 @@
                 Si quieres contribuir, puedes hacerlo por aquí:</p>
         </div>
     </div>
-    <div style="display:flex; flex-direction: row; justify-content: center; gap:0px">
+    <div style="display:flex; flex-direction: row; justify-content: center; margin-right: 120px; margin-left: 120px">
         <div>
             <img src="/assets/imgs/dimas-presenta-1.png" alt="Dimas" style="max-width: 85%; max-height: 85%;"/>
         </div>
@@ -31,12 +31,13 @@
     </div>
     <div style="display: flex; justify-self: center; margin-top: 80px; margin-bottom: 80px;">
         <div style="background-color: #FBD856; width:650px; height:90px; border-radius: 20px; display:flex; justify-content: center;">
-            <h1 style="display:flex; width:600px; padding:0%">Merchandising coming soon!</h1>
+            <h1 style="display:flex; width:600px; color:rgba(18, 41, 75, 1);">Merchandising coming soon!</h1>
         </div>
     </div>
 </template>
 
 <script setup>
+    //margin-right: 50px; margin-left: 50px;
     //background-color: #FBD856; 
     //color:rgba(18, 41, 75, 1);
 import LinkedImage from './../ui/LinkedImage.vue';

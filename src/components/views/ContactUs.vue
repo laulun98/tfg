@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Contact Us"/>
+    <PageHeader title=""/>
 
 
 <h3 style="text-align: center;">¡Contáctanos!</h3>
