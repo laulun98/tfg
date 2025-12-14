@@ -27,7 +27,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
-
+/*
   const banner = document.getElementById("banner");
   const hora = new Date().getHours();
 
@@ -44,5 +44,5 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
   banner.style.backgroundImage = `url('${imagen}')`;
-
+*/
 </script>
