@@ -63,11 +63,11 @@ ayudarnos a reencaminar nuestra vida. </p>
   </div>
   </div> 
 </section>
-<div style="margin-left: 120px;">
+<div style="margin-left: 120px; margin-top: 30px;">
  <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
         </div>
-<div>
-    <RouterLink to="/support-us" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
+<div style="margin-left: 120px; margin-top: 30px;">
+    <RouterLink to="/support" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
 </div>
 </template>
 

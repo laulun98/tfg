@@ -4,7 +4,7 @@
   margin: 0;
   font-family: "EB Garamond";
 }
-p, h1, h2{
+p, h1, h2, h3{
   margin-left:120px;
   margin-right:120px;
 }
@@ -227,7 +227,7 @@ a {
       color: #0d1117;
       transform: scale(1.1);
     }
-
+    /*contact*/
      .contc-title{
         text-align: center;
 
