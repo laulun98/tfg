@@ -52,7 +52,7 @@ ayudarnos a reencaminar nuestra vida. </p>
 
   <div class="gallery">
     <div>
-    <img src="assets/imgs/dimas_boceto.png" alt="Screenshot 1">
+    <img src="" alt="Screenshot 1">
     <img src="" alt="Screenshot 2">
     <img src="" alt="Screenshot 3">
   </div>
@@ -63,11 +63,11 @@ ayudarnos a reencaminar nuestra vida. </p>
   </div>
   </div> 
 </section>
-<div style="margin-left: 120px;">
+<div style="margin-left: 120px; margin-top: 30px;">
  <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
         </div>
-<div>
-    <RouterLink to="/support-us" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
+<div style="margin-left: 120px; margin-top: 30px;">
+    <RouterLink to="/support" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
 </div>
 </template>
 
