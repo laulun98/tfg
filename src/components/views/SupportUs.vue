@@ -30,13 +30,15 @@
         </div>
     </div>
     <div style="display: flex; justify-self: center; margin-top: 80px; margin-bottom: 80px;">
-        <div style="border:1px solid black; width:600px; height:90px; border-radius: 20px; background-color: #FBD856;">
-            <h1 style="display:flex; justify-self: center;color:rgba(18, 41, 75, 1)">Merchandising coming soon!</h1>
+        <div style="background-color: #FBD856; width:650px; height:90px; border-radius: 20px; display:flex; justify-content: center;">
+            <h1 style="display:flex; width:600px; padding:0%">Merchandising coming soon!</h1>
         </div>
     </div>
 </template>
 
 <script setup>
+    //background-color: #FBD856; 
+    //color:rgba(18, 41, 75, 1);
 import LinkedImage from './../ui/LinkedImage.vue';
 import PageHeader from '../ui/PageHeader.vue';
 </script>
