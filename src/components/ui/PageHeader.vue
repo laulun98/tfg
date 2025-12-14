@@ -7,10 +7,10 @@
 <script setup>
 
 const props = defineProps({
-    title: {
+    /*title: {
         type: String,
         default: ''
-    }, 
+    }, */
     imgSrc: {
         type: String,
         default: 'assets/imgs/banner.jpeg'

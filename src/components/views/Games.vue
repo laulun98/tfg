@@ -51,15 +51,14 @@ ayudarnos a reencaminar nuestra vida. </p>
   </a>
 
   <div class="gallery">
-    <div>
-    <img src="./assets/imgs/dimas_boceto.png" alt="Screenshot 1">
-    <img src="" alt="Screenshot 2">
-    <img src="" alt="Screenshot 3">
-  </div>
-  <div>
-    <img src="" alt="Screenshot 4">
-    <img src="" alt="Screenshot 5">
-    <img src="" alt="Screenshot 6">
+    <div style="margin-left: 100px;">
+    <img src="/assets/imgs/dimas_boceto.png" alt="Screenshot 1">
+    <img src="/assets/imgs/dimas-expressions.png" alt="Screenshot 2">
+    <img src="/assets/imgs/Gestas_sketch.png" alt="Screenshot 3">
+ 
+    <img src="/assets/imgs/family.png" alt="Screenshot 4">
+    <img src="/assets/imgs/religiosos.png" alt="Screenshot 5">
+    <img style=" object-position: 30% 20%;"src="/assets/imgs/vendedores2 (1).png" alt="Screenshot 6">
   </div>
   </div> 
 </section>
