@@ -8,11 +8,25 @@ sombras que amenazan la fe y siente el peso de cada elección.
 
 <section>
     <h2>Pitch</h2>
+    <p>Afesis es una visual novel con suspense para jóvenes adultos en la que la 
+tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras 
+que amenazan la fe y siente el peso de cada elección. </p>
     <h2>Description</h2>
-    <h2>History</h2>
-    <h2>Features</h2>
+    <p>Mientras que otros videojuegos cristianos abogan por ofrecer una 
+experiencia dedicada al público creyente, tomando relatos de la Biblia como propias 
+que contar en sus juegos, Áfesis busca no solo acercarse a este público cristiano, 
+sino que también intenta atraer a un público general amante de los juegos 
+narrativos. Esto lo hace adoptando una trama actual, envuelta en el mensaje del 
+perdón cristiano. No necesitas conocer el cristianismo ni practicarlo para poder 
+disfrutar del juego, pero para los cristianos este juego es una Oda a su Fe.  
+El juego ofrece una experiencia enriquecedora donde se ponen en valor los valores 
+cristianos, el peligro de las adicciones, cómo una mala gestión de estas puede 
+repercutir negativamente no solo en ti mismo sino en tu entorno y cómo Dios puede 
+ayudarnos a reencaminar nuestra vida. </p>
+    <!--<h2>History</h2>
+    <h2>Features</h2> -->
 </section>
-
+<!--
 <section class="section-presskit">
   <h2>Trailers</h2>
   <p class="subtitle">
@@ -28,7 +42,7 @@ sombras que amenazan la fe y siente el peso de cada elección.
     </iframe>
   </div>
 </section>
-
+-->
 <section class="section-presskit">
   <h2>Screenshots</h2>
 

@@ -27,4 +27,22 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
+
+  const banner = document.getElementById("banner");
+  const hora = new Date().getHours();
+
+
+  let imagen = "";
+
+
+  if (hora >= 6 && hora < 18) {
+    imagen = "banner-morning.jpg";
+ 
+  } else {
+    imagen = "banner-midnight.jpg";
+  }
+
+
+  banner.style.backgroundImage = `url('${imagen}')`;
+
 </script>
