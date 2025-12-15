@@ -66,7 +66,7 @@ ayudarnos a reencaminar nuestra vida. </p>
   </div>
   </div> 
 </section>
-<div style="justify-content: center; margin-top: 30px;">
+<div style="justify-content: center; align-items:center; display: flex; flex-direction: column; margin-top: 30px;">
  <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
         </div>
 <div style="text-align: center; margin-top: 30px;">
