@@ -125,12 +125,12 @@ a {
   object-position: 30% 10%;
 }
 
-.banner_night {
+/*.banner_night {
   position: relative;
   background-image: url("assets/imgs/Banner_pueblo_noche.png"); 
-  background-size: cover;     /* La imagen se ajusta al ancho */
+  background-size: cover;     
   background-position: 50% 25%;
-  height: 400px;               /* Ocupa toda la altura de la pantalla */
+  height: 400px;               
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,7 +139,7 @@ a {
   object-fit: cover;
   object-position: 30% 10%;
 }
-
+*/
 .header {
   display: flex;
   justify-content: center;
@@ -168,9 +168,9 @@ a {
 
 .secondary_banner {
   position: relative;
-  background-image: url("assets/imgs/banner.png"); 
+  background-image: url("assets/imgs/Pueblo_dia.png"); 
   background-size: cover;     /* La imagen se ajusta al ancho */
-  background-position: 50% 35%;
+  background-position: 50% 60%;
   height: 200px;               /* Ocupa toda la altura de la pantalla */
   display: flex;
   align-items: center;
@@ -179,15 +179,14 @@ a {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 10px;
-  background-color: rgba(71, 52, 52, 0.795);
 }
-
+/*
 .secondary_banner_night {
   position: relative;
-  background-image: url("assets/imgs/Banner_pueblo_noche.png"); 
-  background-size: cover;     /* La imagen se ajusta al ancho */
-  background-position: 50% 35%;
-  height: 200px;               /* Ocupa toda la altura de la pantalla */
+  background-image: url("assets/imgs/Pueblo_noche.png"); 
+  background-size: cover;   
+  background-position: 50% 60%;
+  height: 200px;             
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,7 +196,7 @@ a {
   margin-top: 10px;
   background-color: rgba(71, 52, 52, 0.795);
 }
-
+*/
 .ui-footer {
   background-color: #0e1a2b;
   padding: 20px;
