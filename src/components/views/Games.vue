@@ -54,10 +54,10 @@ ayudarnos a reencaminar nuestra vida. </p>
     <div style="margin-left: 100px;">
     <img src="/assets/imgs/dimas_boceto.png" alt="Screenshot 1">
     <img src="/assets/imgs/dimas-expressions.png" alt="Screenshot 2">
-    <img src="/assets/imgs/dimas4.png" alt="Screenshot 3">
+    <img style=" object-position: 60% 20%;" src="/assets/imgs/dimas4.png" alt="Screenshot 3">
 
-    <img src="/assets/imgs/Gestasface.png" alt="Screenshot 4">
-    <img src="/assets/imgs/GestasBodyTypr.png" alt="Screenshot 5">
+    <img style=" object-position: 55% 20%;" src="/assets/imgs/Gestasface.png" alt="Screenshot 4">
+    <img style=" object-position: 60% 20%;" src="/assets/imgs/GestasBodyTypr.png" alt="Screenshot 5">
     <img src="/assets/imgs/Gestas_sketch.png" alt="Screenshot 6">
 
     <img src="/assets/imgs/family.png" alt="Screenshot 4">

@@ -390,9 +390,8 @@ a {
 .gallery img {
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
-  max-height: 300px;
-  max-width: 400px;
-  width: 100%;
+  height: 300px;
+  width: 400px;
   border-radius: 14px;
   object-fit: cover;
   background: #ddd;
