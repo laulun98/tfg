@@ -125,7 +125,7 @@ a {
   object-position: 30% 10%;
 }
 
-/*.banner_night {
+.banner_night {
   position: relative;
   background-image: url("assets/imgs/Banner_pueblo_noche.png"); 
   background-size: cover;     
@@ -139,7 +139,7 @@ a {
   object-fit: cover;
   object-position: 30% 10%;
 }
-*/
+
 .header {
   display: flex;
   justify-content: center;
@@ -180,7 +180,7 @@ a {
   margin-bottom: 50px;
   margin-top: 10px;
 }
-/*
+
 .secondary_banner_night {
   position: relative;
   background-image: url("assets/imgs/Pueblo_noche.png"); 
@@ -196,7 +196,7 @@ a {
   margin-top: 10px;
   background-color: rgba(71, 52, 52, 0.795);
 }
-*/
+
 .ui-footer {
   background-color: #0e1a2b;
   padding: 20px;

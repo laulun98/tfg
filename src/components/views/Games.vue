@@ -1,6 +1,6 @@
 <template>
     <PageHeader title=""/>
-
+    <h1>Afesis</h1>
      <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
 adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las
 sombras que amenazan la fe y siente el peso de cada elección.
@@ -66,10 +66,10 @@ ayudarnos a reencaminar nuestra vida. </p>
   </div>
   </div> 
 </section>
-<div style="margin-left: 120px; margin-top: 30px;">
+<div style="justify-content: center; margin-top: 30px;">
  <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
         </div>
-<div style="margin-left: 120px; margin-top: 30px;">
+<div style="text-align: center; margin-top: 30px;">
     <RouterLink to="/support" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
 </div>
 </template>
