@@ -13,11 +13,11 @@ const props = defineProps({
     /*title: {
         type: String,
         default: ''
-    }, 
+    }, */
     imgSrc: {
         type: String,
-        default: 'assets/imgs/banner.jpeg'
-    }, */
+        default: 'assets/imgs/banner.png'
+    }, 
     bannerStyle: {
         type: String,
         default: 'secondary_banner' //puede ser banner (para el home) o secondary_banner (para el resto)
