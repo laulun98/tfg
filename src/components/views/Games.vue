@@ -60,9 +60,9 @@ ayudarnos a reencaminar nuestra vida. </p>
     <img style=" object-position: 60% 20%;" src="/assets/imgs/GestasBodyTypr.png" alt="Screenshot 5">
     <img src="/assets/imgs/Gestas_sketch.png" alt="Screenshot 6">
 
-    <img src="/assets/imgs/family.png" alt="Screenshot 4">
-    <img src="/assets/imgs/religiosos.png" alt="Screenshot 5">
-    <img style=" object-position: 30% 20%;"src="/assets/imgs/vendedores2 (1).png" alt="Screenshot 6">
+    <img src="/assets/imgs/family.png" alt="Screenshot 7">
+    <img src="/assets/imgs/religiosos.png" alt="Screenshot 8">
+    <img style=" object-position: 30% 20%;"src="/assets/imgs/vendedores2 (1).png" alt="Screenshot 9">
   </div>
   </div> 
 </section>

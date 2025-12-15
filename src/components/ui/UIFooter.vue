@@ -20,8 +20,8 @@
             <div>
                 <h2>Juegos</h2>
                 <ul>
-                    <li><RouterLink to="/afesios">Afésis</RouterLink></li>
-                    <li><RouterLink to="/afesios">Presskit</RouterLink></li>
+                    <li><RouterLink to="/games">Afésis</RouterLink></li>
+                    <li><RouterLink to="/games">Presskit</RouterLink></li>
                 </ul>
             </div>
             <div>

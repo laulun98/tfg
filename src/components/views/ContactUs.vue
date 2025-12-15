@@ -10,7 +10,7 @@
 
     <div class="contact-card">
         <h3>PRESS:</h3>
-        <p>Aquí tenemos nuestro <a href="games">presskit</a>. Si queréis ver nuestro proceso!</p>
+        <p>Aquí tenemos nuestro <a href="games">presskit</a>. Si queréis ver nuestro proceso</p>
     </div>
 
     <div class="contact-card">
@@ -54,7 +54,7 @@
 
   </form>
 </section>
-
+<!--
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 
 <div class="contact-section">
@@ -70,7 +70,7 @@
     </div>
 
 </div>
-
+-->
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 
 <div>
