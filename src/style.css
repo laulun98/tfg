@@ -125,7 +125,7 @@ a {
   object-position: 30% 10%;
 }
 
-/*.banner_night {
+.banner_night {
   position: relative;
   background-image: url("assets/imgs/Banner_pueblo_noche.png"); 
   background-size: cover;     
@@ -139,7 +139,7 @@ a {
   object-fit: cover;
   object-position: 30% 10%;
 }
-*/
+
 .header {
   display: flex;
   justify-content: center;

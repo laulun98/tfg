@@ -25,9 +25,9 @@ const props = defineProps({
 })
 
 const finalBannerClass = computed(() => {
-  if (hour.value) {
+  if (hour >= 6 && hour < 18) {
     return props.bannerStyle
-  }
+  } 
   return `${props.bannerStyle}_night`
 })
 
