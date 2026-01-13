@@ -20,7 +20,7 @@
                 <RouterLink to="/contact">Contact Us</RouterLink>
             </div>
             <div>
-                <!-- <TranslationButton /> -->
+                <TranslationButton />
             </div>
         </nav>
         <RouterView />

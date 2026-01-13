@@ -1,7 +1,5 @@
 <template>
-    <div :class=finalBannerClass>
-       <!--<h1 style="background-color: rgba(71, 52, 52, 0.4); padding:5px; border-radius: 80%; backdrop-filter: blur(1.5px);"> {{ title }}</h1>--> 
-    </div>
+    <div :class=finalBannerClass></div>
 </template>
 
 <script setup>
@@ -10,10 +8,6 @@ const hour = new Date().getHours();
 console.log(hour)
 
 const props = defineProps({
-    /*title: {
-        type: String,
-        default: ''
-    }, */
     imgSrc: {
         type: String,
         default: 'assets/imgs/banner.png'

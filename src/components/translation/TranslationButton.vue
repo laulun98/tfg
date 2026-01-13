@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="changeLanguages">{{ language }}</button>
+        <button @click="changeLanguages">Language</button>
     </div>
 </template>
 
