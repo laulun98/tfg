@@ -1,5 +1,6 @@
 <template>
     <PageHeader title=""/>
+    <Galeria/>
     <h1>Afesis</h1>
      <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
 adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las
@@ -121,4 +122,5 @@ ayudarnos a reencaminar nuestra vida. </p>
 <script setup>
 import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
+import Galeria from '../ui/Galeria.vue';
 </script>
