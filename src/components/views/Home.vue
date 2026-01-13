@@ -7,6 +7,24 @@
         <br>
         <RouterLink to="/games" class="yellow-link">Presskit de Afesis</RouterLink>
     </div>
+   <!--
+    <section class="section-presskit">
+  <h2>Trailers</h2>
+  <p class="subtitle">
+    Afesis
+    <a href="#" target="_blank">YouTube</a>
+  </p>
+
+  <div class="video-container-presskit">
+    <iframe 
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+      title="YouTube video player" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section> -->
+<h2>¡Únete a nuestra comunidad!</h2> <!--  <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
+
 </template>
 
 <script setup>
