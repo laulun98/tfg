@@ -1,6 +1,7 @@
 <template>
     <PageHeader title=""/>
-    <Galeria/>
+    <Galeria :images="images" :showItemNavigators="true" :showIndicators="true" :showThumbnails="true"/>
+    <!--:numVisible="5" containerStyle="max-width: 640px" :showThumbnails="true" :showIndicators="true" :circular="true":autoPlay="false"-->
     <h1>Afesis</h1>
      <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
 adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las
@@ -123,4 +124,15 @@ ayudarnos a reencaminar nuestra vida. </p>
 import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
 import Galeria from '../ui/Galeria.vue';
+
+const images = [
+  {"itemImageSrc": "assets/imgs/CURA.png", "alt":"Personaje Cura"},
+  {"itemImageSrc": "assets/imgs/DIMAS.png", "alt":"Personaje Dimas"},
+  {"itemImageSrc": "assets/imgs/GAVINO.png", "alt":"Personaje Gavino"},
+  {"itemImageSrc": "assets/imgs/GESTAS.png", "alt":"Personaje Gestas"},
+  {"itemImageSrc": "assets/imgs/MADRE.png", "alt":"Personaje Madre"},
+  {"itemImageSrc": "assets/imgs/PADRE.png", "alt":"Personaje Padre"},
+  {"itemImageSrc": "assets/imgs/MONJA.png", "alt":"Personaje Monja"},
+  {"itemImageSrc": "assets/imgs/PASCUA.png", "alt":"Personaje Pascua"},
+]
 </script>
