@@ -8,7 +8,7 @@
             </div>
         </div>
         <div>
-            <div style="display: flex; justify-content: center; gap:100px">
+            <div style="display: flex; justify-content: center; gap:60px;">
             <div>
                 <h2>Empresa</h2>
                 <ul>

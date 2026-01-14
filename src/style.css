@@ -525,6 +525,31 @@ a {
 }
 .kickstarter {
 background-image: ("/assets/imgs/KickstarterProvisional.png");
+position:relative;
+display:flex;
+align-items: center;
+justify-content: center;
   }
 
+
+  /*Botón support us en contact us*/
+.support-btn {
+  display: inline-block;
+  background: #FBD856;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #042340;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-left: 120px;
+  margin-right: 120px;
+  transition: 0.25s;
+}
+
+.support-btn:hover {
+  background: #f0dfa2;
+  transform: translateY(-2px);
+}
 

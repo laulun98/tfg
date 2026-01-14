@@ -8,15 +8,15 @@
 
     <div class="contact-section">
 
-    <div class="contact-card">
-        <h3>PRESS:</h3>
-        <p>Aquí tenemos nuestro <a href="games">presskit</a>. Si queréis ver nuestro proceso</p>
-    </div>
-
-    <div class="contact-card">
+       <div class="contact-card">
         <h3>SUPPORT:</h3>
         <p>¿Necesitas ayuda o tienes alguna duda sobre nuestra empresa o juego? Escríbenos.</p>
        
+    </div>
+
+    <div class="contact-card">
+        <h3>PRESS:</h3>
+        <p>Aquí tenemos nuestro <a href="games">presskit</a>. Si queréis ver nuestro proceso</p>
     </div>
 
     <div class="contact-card">
@@ -111,10 +111,11 @@ si la comunidad lo solicita. </p>
 <br>
 
  <h3>¿Cómo puedo apoyar el proyecto? </h3>
-  <p>¡Gracias! En la sección de <RouterLink to="/support" class="yellow-link">Support us</RouterLink>encontrarás formas de 
+  <p>¡Gracias! En la sección de <RouterLink to="/support">Support us</RouterLink> encontrarás formas de 
 apoyarnos de forma monetaria, y por supuesto, puedes apoyarnos siguiéndonos en redes, 
 compartiendo nuestro contenido, añadiendo el juego a tu lista de deseados y dejando 
 comentarios o sugerencias.</p>
+<RouterLink to="/support" class="support-btn">Support us</RouterLink>
 <br>
 <!--
  <h3>¿Dónde puedo reportar errores o dar feedback?</h3>
@@ -129,5 +130,6 @@ sugerencias.</p>
 
 <script setup>
 import PageHeader from '../ui/PageHeader.vue';
+import { RouterLink } from 'vue-router';
 
 </script>
