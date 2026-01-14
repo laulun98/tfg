@@ -30,4 +30,7 @@
 
 <script setup>
 import PageHeader from '../ui/PageHeader.vue';
+import TextTranslation from '../translation/TextTranslation.json';
+
+
 </script>
