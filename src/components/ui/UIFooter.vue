@@ -18,7 +18,7 @@
                 </ul>
             </div>
             <div>
-                <h2>Juegos</h2>
+                <h2>Games</h2>
                 <ul>
                     <li><RouterLink to="/games">Afésis</RouterLink></li>
                     <li><RouterLink to="/games">Presskit</RouterLink></li>

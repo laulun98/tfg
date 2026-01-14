@@ -6,8 +6,7 @@ adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos
 sombras que amenazan la fe y siente el peso de cada elección.
 </p>
 
-<img src="" alt="">
-
+<div class="banner_family"></div>
 
 <section>
     <h2>Pitch</h2>
