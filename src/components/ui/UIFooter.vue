@@ -8,7 +8,7 @@
             </div>
         </div>
         <div>
-            <div style="display: flex; justify-content: center; gap:100px">
+            <div style="display: flex; justify-content: center; gap:60px;">
             <div>
                 <h2>Empresa</h2>
                 <ul>
@@ -18,7 +18,7 @@
                 </ul>
             </div>
             <div>
-                <h2>Juegos</h2>
+                <h2>Games</h2>
                 <ul>
                     <li><RouterLink to="/games">Afésis</RouterLink></li>
                     <li><RouterLink to="/games">Presskit</RouterLink></li>

@@ -16,6 +16,7 @@
         <div style="display:flex; justify-content: center">
             <LinkedImage :src="'assets/imgs/kickstarter.png'" :link="'https://www.kickstarter.com/'" :alt="'kickstarter'" />
         </div>
+        <div class="kickstarter"> <img class="kickstarter" src="/assets/imgs/KickstarterProvisional.png"></div>
     </div>
     <!--
     <div style="display:flex; flex-direction: row; justify-content: center; margin-right: 150px; margin-left: 120px">

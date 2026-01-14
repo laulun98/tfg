@@ -7,6 +7,8 @@ adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos
 sombras que amenazan la fe y siente el peso de cada elección.
 </p>
 
+<div class="banner_family"></div>
+
 <section>
     <h2>Pitch</h2>
     <p>Afesis es una visual novel con suspense para jóvenes adultos en la que la 

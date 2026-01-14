@@ -1,6 +1,6 @@
 <template>
     <div style="width: 100%; margin-bottom: 5px;">
-        <nav style="display: flex; justify-content: center; gap: 5px;">
+        <nav style="display: flex; justify-content: center; gap: 5px; position:sticky; top:0;z-index: 1000;">
             <div style="margin:6px">
                 <RouterLink to="/home"><img :src="'assets/imgs/logo-menu.png'" :alt="logo" style="height:30px; width:30px" /></RouterLink>
             </div>
