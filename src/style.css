@@ -2,8 +2,13 @@
   background-image: url("/assets/imgs/texturaFondo.png");
   color:#FFFFFF;
   margin: 0;
+  padding: 0;
   font-family: "EB Garamond";
 }
+body {
+    margin: 0;
+    padding: 0;
+  }
 p, h1, h2, h3{
   margin-left:120px;
   margin-right:120px;
@@ -123,6 +128,7 @@ a {
   margin-top: 10px;
   object-fit: cover;
   object-position: 30% 10%;
+  padding: 0;
 }
 
 .banner_night {
@@ -138,6 +144,7 @@ a {
   margin-top: 10px;
   object-fit: cover;
   object-position: 30% 10%;
+  padding: 0;
 }
 
 .header {
@@ -179,6 +186,7 @@ a {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 10px;
+  padding: 0;
 }
 
 .secondary_banner_night {
@@ -194,6 +202,10 @@ a {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  
 }
 
 .ui-footer {
@@ -273,7 +285,7 @@ a {
 
 .contact-container {
     
-    margin: 0px;
+    margin: 0px auto;
     background: transparent;
     padding: 30px;
     width: 50%;
@@ -340,14 +352,15 @@ a {
   .contact-section {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 40px;
+    gap: 30px;
     /*border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;*/
 }
 
 .contact-card {
     width: 30%;
-    text-align: left;
 }
 
 .contact-card h3 {
@@ -553,3 +566,56 @@ justify-content: center;
   transform: translateY(-2px);
 }
 
+.conoce {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+/*PIE DE PÁGINA*/
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+.footer > div{
+  min-width: 180px;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-column {
+  min-width: 180px;   
+  text-align: left;
+}
+
+.footer-column h2 {
+  margin-bottom: 12px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*banner abajo*/
+.banner-noche {
+ position: relative;
+  background-image: url("assets/imgs/Pueblo_noche.png"); 
+  background-size: cover;   
+  background-position: 50% 60%;
+  height: 200px;             
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
