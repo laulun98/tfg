@@ -8,8 +8,8 @@
             </div>
         </div>
         <div>
-            <div style="display: flex; justify-content: center; gap:60px;">
-            <div>
+            <div class="footer">
+            <div class="footer-column">
                 <h2>Empresa</h2>
                 <ul>
                     <li><RouterLink to="/home">Home</RouterLink></li>
@@ -17,14 +17,14 @@
                     <li><RouterLink to="/games">Games</RouterLink></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-column">
                 <h2>Games</h2>
                 <ul>
                     <li><RouterLink to="/games">Afésis</RouterLink></li>
                     <li><RouterLink to="/games">Presskit</RouterLink></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-column">
                 <h2>Support</h2>
                 <ul>
                     <li><RouterLink to="/support">Support Us</RouterLink></li>

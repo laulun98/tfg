@@ -3,9 +3,8 @@
     <div style="margin-bottom: 40px; display: flex; justify-content: center;">
         <div style="display: flex; flex-direction: column;">
             <h1>¡Ayúdanos a seguir creando juegos!</h1>
-            <p>¡Tu apoyo es fundamental para que estudios indie como el nuestro sigan creando experiencias
-                increíbles!<br>
-                Si quieres contribuir, puedes hacerlo por aquí:</p>
+            <p>Somos un equipo formado por juniors pero con una misión clara: abrirnos paso en el 
+                mercado y lanzar un producto de calidad. Si quieres apoyarnos: </p>
         </div>
     </div>
     <div style="display:flex; flex-direction: column; justify-content: center; margin-bottom: 100px;">
@@ -49,6 +48,10 @@
             <h1 style="display:flex; width:600px; color:rgba(18, 41, 75, 1);">Merchandising coming soon!</h1>
         </div>
     </div>
+
+     <div class="banner-noche">
+    </div>
+    
 </template>
 
 <script setup>

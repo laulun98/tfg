@@ -27,7 +27,7 @@
 </div>
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
   <!-- formulario -->
-  <section style="position: relative; margin-left: 400px;" class="contact-container">
+  <section style="position: relative;" class="contact-container">
   <form action="#" method="post">
     
     <div class="form-group">
@@ -126,6 +126,8 @@ sugerencias.</p>
 
 <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 
+ <div class="banner-noche">
+    </div>
 </template>
 
 <script setup>

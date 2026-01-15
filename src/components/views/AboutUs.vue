@@ -13,7 +13,7 @@
         <p>Nos encontramos desarrollando Afesis, nuestra primera aventura como equipo, una visual novel 
         con suspense para jóvenes adultos en la que la tradición cristiana cobra vida. Descifra pasajes 
         bíblicos, enfréntate a las sombras que amenazan la fe y siente el peso de cada elección.</p>
-        
+
         <h1>¿De dónde nace Aftos Studio?</h1>
         <p>Con gran inquietud por crearse un hueco en la industria, nuestro director Javier Pardo de 
         Santayana creó Aftos con una misión clara en mente: dar una oportunidad a juniors que como él, 
@@ -27,6 +27,8 @@
         <!--
         <RouterLink to="/careers" class="red-link">¿Quieres unirte a nosotros?</RouterLink>
         -->
+    </div>
+    <div class="banner-noche">
     </div>
 </template>
 
