@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="" :bannerStyle="'banner'"/>
+    <PageHeader title="" :bannerStyle="'banner'" :page="'home'"/>
     <div class="home-content">
         <h1>Aftos es un estudio madrileño de desarrollo de videojuegos.</h1>
         <h1 style="margin-top: 0px">Creando "Afesis"</h1>

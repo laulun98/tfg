@@ -20,7 +20,7 @@
                 <RouterLink to="/contact">Contact Us</RouterLink>
             </div>
             <div>
-                <TranslationButton />
+                <TranslationButton :page="page" @prueba="prueba"/>
             </div>
         </nav>
         <RouterView />
@@ -31,22 +31,18 @@
 import { RouterLink, RouterView } from 'vue-router'
 import TranslationButton from '../translation/TranslationButton.vue';
 
-/*
-  const banner = document.getElementById("banner");
-  const hora = new Date().getHours();
+const props = defineProps({
+    page: {
+        type: String,
+        required: true
+    }
+})
 
+function prueba(language){
+    console.log(language)
+    console.log(props.page)
+}
 
-  let imagen = "";
+const emit = defineEmits(['languageChanged'])
 
-
-  if (hora >= 6 && hora < 18) {
-    imagen = "banner-morning.jpg";
- 
-  } else {
-    imagen = "banner-midnight.jpg";
-  }
-
-
-  banner.style.backgroundImage = `url('${imagen}')`;
-*/
 </script>

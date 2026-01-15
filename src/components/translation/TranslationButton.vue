@@ -19,17 +19,17 @@ const props = defineProps({
 })
 
 const lang = ref(props.language)
-const emit = defineEmits(['pageTranslated', 'lang'])
+const emit = defineEmits(['pageTranslated', 'lang', 'prueba'])
 
 function changeLanguages(){
     if(lang.value=='EN'){
         lang.value='ES'
-        emit('pageTranslated', props.page)
-        emit('lang', 'ES')
+        emit('prueba', lang.value+'.'+props.page)
     } else {
         lang.value='EN'
-        emit('pageTranslated', props.page)
-        emit('lang', 'EN')
+        emit('prueba', lang.value+'.'+props.page)
+        //emit('pageTranslated', props.page)
+        //emit('lang', 'EN')
     }
 }
 
@@ -37,7 +37,10 @@ watch(() => props.language, (newVal) => {
     lang.value = newVal
 })
 
-//a ver que me estoy liando, esto sería desde el aquí, a la barra de navegación y de la barra de navegación a la página en la que se este
+/*
+a ver que me estoy liando, esto sería desde el aquí, a la barra 
+de navegación y de la barra de navegación a la página en la que se este
+*/
 
 
 </script>
