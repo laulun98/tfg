@@ -1,16 +1,21 @@
 <template>
   <div style="border: 2px">
-    <MenuBar :page="route.path"/>
+    <MenuBar @prueba="traducirPagina"/>
   </div>
   <UIFooter/>
 </template>
 
 <script setup>
-import { watch } from 'vue';
 import MenuBar from './components/navbar/MenuBar.vue';
 import UIFooter from './components/ui/UIFooter.vue';
 import { useRoute } from 'vue-router';
+import { traducir } from './components/translation/state';
 
 const route = useRoute();
+
+function traducirPagina(idioma) {
+  const paginaActual = route.path
+  traducir(paginaActual, idioma)
+}
 
 </script>
