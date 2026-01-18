@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="" :bannerStyle="'banner'" :page="'home'"/>
+    <PageHeader title="" :bannerStyle="'banner'" :page="'/home'"/>
     <div class="home-content">
         <h1>{{ i18nState.textos.title }}</h1><!-- Aftos es un estudio madrileño de desarrollo de videojuegos. -->
         <h1 style="margin-top: 0px">Creando "Afesis"</h1>
@@ -28,12 +28,8 @@
 
 </template>
 
-<script setup>
-import PageHeader from '../ui/PageHeader.vue';
-import { i18nState } from '../translation/state';
+<script setup> 
+import { i18nState } from './../translation/state'
 
-onMounted(() => {
-  traducir('/home', i18nState.idioma)
-})
 
 </script>
