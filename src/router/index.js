@@ -9,6 +9,7 @@ import ContactUs from '../components/views/ContactUs.vue'
 import Privacy from '../components/views/Privacy.vue'
 import Afesios from '../components/views/games_views/Afesis.vue'
 import Careers from '../components/views/Careers.vue'
+import Legal from '../components/views/Legal.vue'
 
 const routes = [
   { 
@@ -53,6 +54,12 @@ const routes = [
     path: '/careers',
     name: '/careers',
     component: Careers,
+  },
+
+{
+    path: '/legal',
+    name: '/legal',
+    component: Legal,
   },
 ]
 

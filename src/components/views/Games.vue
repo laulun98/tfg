@@ -58,17 +58,8 @@
         <img :src="selected" class="big-image" />
       </div>
     </div>
-    <!-- Lightbox 
-<div id="lightbox" class="lightbox">
-  <span class="close">&times;</span>
-  <button class="nav prev">&#10094;</button>
-  <img class="lightbox-img" src="">
-  <button class="nav next">&#10095;</button>
-</div>
--->
   </section>
   <section>
-
     <div class="conoce">
       <img src="/assets/imgs/ConoceDimas.png">
     </div>
@@ -107,7 +98,6 @@ import { ref } from 'vue';
 import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
 import { i18nState } from './../translation/state'
-
 const images = [
   '/assets/imgs/dimas_boceto.png',
   '/assets/imgs/dimas4.png',
