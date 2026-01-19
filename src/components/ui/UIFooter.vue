@@ -4,7 +4,7 @@
             <div style="display:flex; flex-direction: column;">
                 <RouterLink to="/home" style="display: flex; justify-content: center;"><img :src="'assets/imgs/IMAGOTIPO.png'" :alt="logo" style="height:100px; width:200px"/></RouterLink>
                <div><SocialButton/></div>
-                <p> © Aftos Studios todos los derechos reservados | <RouterLink to="/privacy">Política de Privacidad</RouterLink></p>
+                <p> © Aftos Studios todos los derechos reservados | <RouterLink to="/privacy">Política de Privacidad</RouterLink> | <RouterLink to="/legal">Aviso legal</RouterLink></p>
             </div>
         </div>
         <div>
@@ -30,6 +30,7 @@
                     <li><RouterLink to="/support">Support Us</RouterLink></li>
                     <li><RouterLink to="/contact">Contact Us</RouterLink></li>
                     <li><RouterLink to="/privacy">Política de Privacidad</RouterLink></li>
+                    <li><RouterLink to="/legal">Aviso legal</RouterLink></li>
                 </ul>
             </div>
         </div>
