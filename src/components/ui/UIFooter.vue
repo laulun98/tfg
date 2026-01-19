@@ -15,6 +15,7 @@
                     <li><RouterLink to="/home">Home</RouterLink></li>
                     <li><RouterLink to="/about">About Us</RouterLink></li>
                     <li><RouterLink to="/games">Games</RouterLink></li>
+                     <li><RouterLink to="/careers">Careers</RouterLink></li>
                 </ul>
             </div>
             <div class="footer-column">
