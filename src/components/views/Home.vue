@@ -1,7 +1,7 @@
 <template>
-    <PageHeader title="" :bannerStyle="'banner'" :page="'home'"/>
+    <PageHeader title="" :bannerStyle="'banner'" :page="'/home'"/>
     <div class="home-content">
-        <h1>Aftos es un estudio madrileño de desarrollo de videojuegos.</h1>
+        <h1>{{ i18nState.textos.title }}</h1><!-- Aftos es un estudio madrileño de desarrollo de videojuegos. -->
         <h1 style="margin-top: 0px">Creando "Afesis"</h1>
         <P>Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran. 
         <br><RouterLink to="/about" class="yellow-link">Leer más</RouterLink></P>
@@ -28,7 +28,8 @@
 
 </template>
 
-<script setup>
-import PageHeader from '../ui/PageHeader.vue';
+<script setup> 
+import { i18nState } from './../translation/state'
+
 
 </script>

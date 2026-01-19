@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { i18nState } from '@/components/translation/state'
 
 import AboutUs from '../components/views/AboutUs.vue'
 import SupportUs from '../components/views/SupportUs.vue'
@@ -58,6 +59,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
+})
+
+router.afterEach((to) => {
+  i18nState.pagina = to.path
 })
 
 export default router

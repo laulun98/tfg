@@ -1,6 +1,5 @@
 <template>
   <PageHeader title="" />
-  <!--<Galeria :images="images" :showItemNavigators="true" :showIndicators="true" :showThumbnails="true"/>-->
   <h1>Afesis</h1>
   <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
     adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las
@@ -92,20 +91,11 @@
     </a>
 
     <div class="gallery">
-      <img v-for="(img, index) in images" :key="index" :src="img" :alt="'Screenshot ' + (index + 1)" @click="open(img)" :class="{ active: activeImage === img }"/>
+      <img v-for="(img, index) in images" :key="index" :src="img" :alt="'Screenshot ' + (index + 1)" @click="open(img)"
+        :class="{ active: activeImage === img }" />
       <div v-if="selected" class="overlay" @click="selected = null">
         <img :src="selected" class="big-image" />
       </div>
-      <!--
-      <div style="margin-left: 100px;">
-        <img src="/assets/imgs/dimas_boceto.png" alt="Screenshot 1">
-        <img style=" object-position: 60% 20%;" src="/assets/imgs/dimas4.png" alt="Screenshot 2">
-        <img src="/assets/imgs/pascua_sketches.png" alt="Screenshot 3">
-
-        <img style=" object-position: 55% 10%;" src="/assets/imgs/religiosos.png" alt="Screenshot 4">
-        <img style=" object-position: 60% 20%;" src="/assets/imgs/vendedores2 (1).png" alt="Screenshot 5">
-      </div>
-      -->
     </div>
     <!-- Lightbox 
 <div id="lightbox" class="lightbox">
@@ -115,39 +105,39 @@
   <button class="nav next">&#10095;</button>
 </div>
 -->
-</section>
-<section>
+  </section>
+  <section>
 
-<div class="conoce">
-<img src="/assets/imgs/ConoceDimas.png">
-</div>
-
-<p>Nuestro protagonista Dimas es un adulto que malvive por su cuenta y lleva descontento con 
-su vida mucho tiempo. Tras los comienzos del inicio del juego, necesitará una mano amable 
-(y de tu guía) para encontrar el camino. </p>
-
-<div class="conoce">
-<img src="/assets/imgs/ConoceValdejara.png">
-</div>
-
-<p>Valdejara es un pueblo ficticio detenido en el tiempo, se encuentra en la salida de un valle 
-oculto en la sierra dentro de la provincia Ávila.Valdejara hoy es un pueblo vivo, con una 
-demografía típica para su tamaño. Combina retorno de nativos, llegada de familias jóvenes 
-atraídas por calidad de vida y teletrabajo, y una pequeña comunidad de creadores y 
-emprendedores que ha tomado la antigua quesería y la vieja fábrica en el valle como 
-centros productivos y culturales. Y como es tradición, en el caso de Dimas, la Ferretería 
-familiar, Durán e Hijos. </p>
-
-</section>
-<div style="justify-content: center; align-items:center; display: flex; flex-direction: column; margin-top: 30px;">
- <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
-        </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-    <RouterLink to="/support" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
-</div> 
-
- <div class="banner-noche">
+    <div class="conoce">
+      <img src="/assets/imgs/ConoceDimas.png">
     </div>
+
+    <p>Nuestro protagonista Dimas es un adulto que malvive por su cuenta y lleva descontento con
+      su vida mucho tiempo. Tras los comienzos del inicio del juego, necesitará una mano amable
+      (y de tu guía) para encontrar el camino. </p>
+
+    <div class="conoce">
+      <img src="/assets/imgs/ConoceValdejara.png">
+    </div>
+
+    <p>Valdejara es un pueblo ficticio detenido en el tiempo, se encuentra en la salida de un valle
+      oculto en la sierra dentro de la provincia Ávila.Valdejara hoy es un pueblo vivo, con una
+      demografía típica para su tamaño. Combina retorno de nativos, llegada de familias jóvenes
+      atraídas por calidad de vida y teletrabajo, y una pequeña comunidad de creadores y
+      emprendedores que ha tomado la antigua quesería y la vieja fábrica en el valle como
+      centros productivos y culturales. Y como es tradición, en el caso de Dimas, la Ferretería
+      familiar, Durán e Hijos. </p>
+
+  </section>
+  <div style="justify-content: center; align-items:center; display: flex; flex-direction: column; margin-top: 30px;">
+    <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
+  </div>
+  <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <RouterLink to="/support" class="yellow-link">¿Quieres apoyar el proyecto?</RouterLink>
+  </div>
+
+  <div class="banner-noche">
+  </div>
 
 </template>
 
@@ -155,8 +145,6 @@ familiar, Durán e Hijos. </p>
 import { ref } from 'vue';
 import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
-//import Galeria from '../ui/Galeria.vue';
-
 
 const images = [
   '/assets/imgs/dimas_boceto.png',
@@ -173,25 +161,3 @@ const open = (img) => {
 }
 
 </script>
-<style>
-  .overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.big-image {
-  max-width: 90%;
-  max-height: 90%;
-  scale: 1.8
-}
-
-.gallery img.active {
-  transform: scale(1.15);
-  z-index: 2;
-}
-
-</style>

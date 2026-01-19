@@ -1,6 +1,6 @@
 {
     "ES": {
-        "home": {
+        "/home": {
             "title": "Aftos es un estudio madrileño de desarrollo de videojuegos.",
             "afesis": "Creando 'Afesis'",
             "description": "Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran.",
@@ -9,7 +9,7 @@
         }
     },
     "EN": {
-        "home": {
+        "/home": {
             "title": "Aftos is a Madrid-based video game development studio.",
             "afesis": "Creating 'Afesis'",
             "description": "We are a video game and audiovisual creation studio that advocates for culture, the talent of young creators, and inspiring stories.",

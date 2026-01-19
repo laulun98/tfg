@@ -39,8 +39,7 @@ const props = defineProps({
 })
 
 function prueba(language){
-    console.log(language)
-    console.log(props.page)
+    emit('languageChanged', language)
 }
 
 const emit = defineEmits(['languageChanged'])
