@@ -2,15 +2,14 @@
     <PageHeader title="" />
     <div style="margin-bottom: 40px; display: flex; justify-content: center;">
         <div style="display: flex; flex-direction: column;">
-            <h1>¡Ayúdanos a seguir creando juegos!</h1>
-            <p>Somos un equipo formado por juniors pero con una misión clara: abrirnos paso en el 
-                mercado y lanzar un producto de calidad. Si quieres apoyarnos: </p>
+            <h1>{{ i18nState.textos.help }}</h1>
+            <p>{{ i18nState.textos.descriptionSupport }}</p>
         </div>
     </div>
     <div style="display:flex; flex-direction: column; justify-content: center; margin-bottom: 100px;">
         <div style="display:flex; flex-direction: column;">
-            <h1>¡Se viene Kickstarter!</h1>
-            <h3>¡Dentro de poco podréis colaborar através de Kickstarter, obtener recompensas y mucho más!</h3>
+            <h1>{{ i18nState.textos.kick }}</h1>
+            <h3>{{ i18nState.textos.kickstarter }}</h3>
         </div>
         <div style="display:flex; justify-content: center">
             <LinkedImage :src="'assets/imgs/kickstarter.png'" :link="'https://www.kickstarter.com/'" :alt="'kickstarter'" />
@@ -55,9 +54,8 @@
 </template>
 
 <script setup>
-    //margin-right: 50px; margin-left: 50px;
-    //background-color: #FBD856; 
-    //color:rgba(18, 41, 75, 1);
 import LinkedImage from './../ui/LinkedImage.vue';
 import PageHeader from '../ui/PageHeader.vue';
+import { i18nState } from './../translation/state'
+
 </script>

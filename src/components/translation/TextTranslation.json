@@ -5,7 +5,44 @@
             "afesis": "Creando 'Afesis'",
             "description": "Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran.",
             "more": "Leer más",
-            "community": "¡Únete a nuestra comunidad!"
+            "community": "¡Únete a nuestra comunidad!",
+            "presskit": "Presskit de Afesis",
+            "join": "¡Únete a nuestra comunidad!"
+        },
+        "/about": {
+            "titleAbout": "Aftos es un estudio madrileño de desarrollo de videojuegos.",
+            "afesisAbout": "Creando 'Afesis'",
+            "descriptionAbout": "Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran. Centrados en abordar dilemas morales basados en la fe cristiana, desde un punto de vista nuevo, abierto y joven. Queremos crear oportunidades para los juniors en la industria y compartir ideas frescas y novedosas, centrándonos en los valores y la moral cristiana. Nos encontramos desarrollando nuestro primer proyecto, centrado en explorar el concepto del perdón.",
+            "doing": "¿Qué estamos haciendo?",
+            "developing": "Nos encontramos desarrollando Afesis, nuestra primera aventura como equipo, una visual novel con suspense para jóvenes adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras que amenazan la fe y siente el peso de cada elección.",
+            "born": "¿De dónde nace Aftos Studio?",
+            "aftos": "Con gran inquietud por crearse un hueco en la industria, nuestro director Javier Pardo de Santayana creó Aftos con una misión clara en mente: dar una oportunidad a juniors que como él, estaban ansiosos por crear. Aftos nace del griego αὐτός que significa literalmente “ÉL”. Es un demostrativo que junto al logo simboliza a Dios. En la creación de este estudio, buscamos transmitir la alegría del evangelio y los valores cristianos del perdón, la paciencia y el amor de Dios a los jóvenes de hoy en día. Con una visión de actualidad y de esfuerzo, abriendo esta narrativa a todos los públicos, e invitando a jugar a públicos más tradicionales."
+        },
+        "/support": {
+            "help": "¡Ayúdanos a seguir creando juegos!",
+            "descriptionSupport": "Somos un equipo formado por juniors pero con una misión clara: abrirnos paso en el mercado y lanzar un producto de calidad. Si quieres apoyarnos:",
+            "kick": "¡Se viene Kickstarter!",
+            "kickstarter": "¡Dentro de poco podréis colaborar através de Kickstarter, obtener recompensas y mucho más!"
+        },
+        "/games": {
+            "afesisGames": "Afesis",
+            "descriptionAfesis": "Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras que amenazan la fe y siente el peso de cada elección.",
+            "pitch": "Pitch",
+            "pitchText": "Afesis es una visual novel con suspense para jóvenes adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras que amenazan la fe y siente el peso de cada elección.",
+            "aboutAfesis":  "Descripción",
+            "aboutAfesisText": "Mientras que otros videojuegos cristianos abogan por ofrecer una experiencia dedicada al público creyente, tomando relatos de la Biblia como propias que contar en sus juegos, Áfesis busca no solo acercarse a este público cristiano, sino que también intenta atraer a un público general amante de los juegos narrativos. Esto lo hace adoptando una trama actual, envuelta en el mensaje del perdón cristiano. No necesitas conocer el cristianismo ni practicarlo para poder disfrutar del juego, pero para los cristianos este juego es una Oda a su Fe. El juego ofrece una experiencia enriquecedora donde se ponen en valor los valores cristianos, el peligro de las adicciones, cómo una mala gestión de estas puede repercutir negativamente no solo en ti mismo sino en tu entorno y cómo Dios puede ayudarnos a reencaminar nuestra vida.",
+            "history": "Historia",
+            "historyText": "Esta historia trata sobre cómo el perdón de Dios es lo que libera al ser humano del pecado y le permite avanzar en su vida y alcanzar la felicidad por medio del amor. Nosotros jugamos como Dimas, que, convertido en todo un adulto que malvive por su cuenta, lleva descontento con su vida mucho tiempo. Habita en un pequeño apartamento de su familia cerca de la Ferretería Durán e Hijos. Cuando su madre, por heridas del pasado, no quiere tener a su hijo cerca y desesperada le da un ultimátum, aparece Gestas. Nuestro hermano mayor nos propone cometer un delito aprovechando la precaria situación: entre los dos robaremos una Reliquia de la Familia Durán y compartiremos la riqueza. Mientras Gestas disfruta de este estilo de vida, nosotros pronto sentiremos el hastío de quien se deja arrastrar por sus impulsos. Y una vez perdida esa falsa sensación de libertad, intentaremos enmendar nuestros errores. Pero para elegir el bien, hay que conocerlo.",
+            "features": "Características",
+            "feature1": "-Sistema de tiempo: Explora la vida cotidiana de esta familia durante la madrugada, mediodía, tarde y noche. Atiende (o no) a los eventos y explora el pueblo de Valdejara.",
+            "feature2": "-Gestión de ánimo, estrés y adicción: Hacer malabares entre oficio, descanso y vicios es algo que muchos pueden entender. Como Dimas, deberás adentrarte en las complicadas dependencias que hacen de ti quien quieres o no ser.",
+            "feature3": "-Crafteo: En la Ferretería Durán e Hijos hay muchos gadgets a tu disposición, pero tu recurso más valioso siempre será tu ingenio. Craftea como Dimas, cobra a tus clientes (o tímalos) y arregla cerraduras como buen manitas que eres.",
+            "feature4": "-Vínculos: La vida en Valdejara es más amena con compañía, pero no todos somos buenos o queremos socializar. Tal vez haya una Dulcinea alternativa esperándote, un carnicero de gran corazón y músculo, o un kioskero de acento interesante y un poco desconfiado, con los que pasar la tarde en el pueblo.",
+            "lang": "Idiomas disponibles",
+            "langAvailable": "Español castellano, Inglés, Ruso"
+        },
+        "/contact": {
+            
         }
     },
     "EN": {
@@ -14,7 +51,42 @@
             "afesis": "Creating 'Afesis'",
             "description": "We are a video game and audiovisual creation studio that advocates for culture, the talent of young creators, and inspiring stories.",
             "more": "Read more",
-            "community": "Join our community!"
+            "community": "Join our community!",
+            "presskit": "Afesis Presskit",
+            "join": "Join our community!"
+        },
+        "/about": {
+            "titleAbout": "Aftos is a Madrid-based video game development studio.",
+            "afesisAbout": "Creating 'Afesis'",
+            "descriptionAbout": "We are a video game and audiovisual creation studio that advocates for culture, the talent of young creators, and inspiring stories. Focused on addressing moral dilemmas based on Christian faith, from a fresh, open and young perspective. We want to create opportunities for juniors in the industry and share fresh and innovative ideas, focusing on values and Christian morality. We are developing our first project, centered on exploring the concept of forgiveness.",
+            "doing": "What are we doing?",
+            "developing": "We are currently developing Afesis, our first adventure as a team, a suspenseful visual novel for young adults in which Christian tradition comes to life. Decipher biblical passages, confront the shadows that threaten faith, and feel the weight of each choice.",
+            "born": "Where did Aftos Studio come from?",
+            "aftos": "Eager to make a name for himself in the industry, our director Javier Pardo de Santayana created Aftos with a clear mission in mind: to give opportunities to juniors who, like him, were eager to create. Aftos comes from the Greek αὐτός, which literally means “HE.” It is a demonstrative that, together with the logo, symbolizes God. In creating this studio, we seek to convey the joy of the gospel and the Christian values of forgiveness, patience, and God's love to today's youth. With a vision of modernity and effort, we open this narrative to all audiences and invite more traditional audiences to play."
+        },
+        "/support": {
+            "help": "Help us keep creating games!",
+            "descriptionSupport": "We are a team of juniors with a clear mission: to make our way in the market and launch a quality product. If you want to support us:",
+            "kick": "Kickstarter is coming!",
+            "kickstarter": "Soon you will be able to collaborate through Kickstarter, get rewards and much more!"
+        },
+        "/games": {
+            "afesisGames": "Afesis",
+            "descriptionAfesis": "Afesis is our first adventure as a team, a suspenseful visual novel for young adults in which Christian tradition comes to life. Decipher biblical passages, confront the shadows that threaten faith, and feel the weight of each choice.",
+            "pitch": "Pitch",
+            "pitchText": "Afesis is a suspenseful visual novel for young adults in which Christian tradition comes to life. Decipher biblical passages, confront the shadows that threaten faith, and feel the weight of each choice.",
+            "aboutAfesis":  "Description",
+            "aboutAfesisText": "While other Christian video games aim to offer an experience dedicated to a believing audience, taking stories from the Bible as their own to tell in their games, Afesis seeks not only to appeal to this Christian audience, but also to attract a general audience that loves narrative games. It does this by adopting a contemporary plot, wrapped in the message of Christian forgiveness. You don't need to know or practice Christianity to enjoy the game, but for Christians, this game is an ode to their faith. The game offers an enriching experience that highlights Christian values, the danger of addiction, how poor management of addiction can negatively affect not only yourself but also those around you, and how God can help us get our lives back on track.",
+            "history": "History",
+            "historyText": "This story is about how God's forgiveness frees human beings from sin and allows them to move forward in their lives and achieve happiness through love. We play as Dimas, who, now a grown man living on his own, has been unhappy with his life for a long time. He lives in a small apartment belonging to his family near the Durán e Hijos hardware store. When his mother, wounded by the past, refuses to have her son around and desperately gives him an ultimatum, Gestas appears. Our older brother proposes that we commit a crime, taking advantage of the precarious situation: the two of us will steal a relic from the Durán family and share the wealth. While Gestas enjoys this lifestyle, we soon feel the weariness of someone who is carried away by their impulses. And once that false sense of freedom is lost, we will try to make amends for our mistakes. But to choose good, you have to know it.",
+            "features": "Features",
+            "feature1": "-Time system: Explore this family's daily life during the early morning, midday, afternoon, and evening. Attend (or not) events and explore the town of Valdejara.",
+            "feature2": "-Mood, stress, and addiction management: Juggling work, rest, and vices is something many can understand. Like Dimas, you'll have to delve into the complicated dependencies that make you who you want to be or don't want to be.",
+            "feature3": "-Crafting: At Durán e Hijos Hardware Store, there are many gadgets at your disposal, but your most valuable resource will always be your ingenuity. Craft like Dimas, charge your customers (or steal from them) and fix locks like the handyman you are.",
+            "feature4": "-Connections: Life in Valdejara is more enjoyable with company, but not all of us are good at or want to socialize. Perhaps there is an alternative Dulcinea waiting for you, a butcher with a big heart and muscles, or a kiosk owner with an interesting accent and a bit of mistrust, with whom you can spend the afternoon in town.",
+            "lang": "Languages available",
+            "langAvailable": "Castillian Spanish, English, Russian"
+        
         }
     }
 }

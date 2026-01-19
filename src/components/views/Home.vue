@@ -2,11 +2,11 @@
     <PageHeader title="" :bannerStyle="'banner'" :page="'/home'"/>
     <div class="home-content">
         <h1>{{ i18nState.textos.title }}</h1><!-- Aftos es un estudio madrileño de desarrollo de videojuegos. -->
-        <h1 style="margin-top: 0px">Creando "Afesis"</h1>
-        <P>Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran. 
-        <br><RouterLink to="/about" class="yellow-link">Leer más</RouterLink></P>
+        <h1 style="margin-top: 0px">{{ i18nState.textos.afesis }}</h1>
+        <P>{{ i18nState.textos.description }}</P>
+        <p><RouterLink to="/about" class="yellow-link">{{ i18nState.textos.more }}</RouterLink></P>
         <br>
-        <RouterLink to="/games" class="yellow-link">Presskit de Afesis</RouterLink>
+        <RouterLink to="/games" class="yellow-link">{{ i18nState.textos.presskit }}</RouterLink>
     </div>
    <!--
     <section class="section-presskit">
@@ -24,12 +24,12 @@
     </iframe>
   </div>
 </section> -->
-<h2>¡Únete a nuestra comunidad!</h2> <!--  <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
+<h2>{{ i18nState.textos.join }}</h2> <!--  <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
 
 </template>
 
 <script setup> 
 import { i18nState } from './../translation/state'
-
+import PageHeader from './../ui/PageHeader.vue'
 
 </script>

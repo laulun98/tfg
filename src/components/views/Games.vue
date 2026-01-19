@@ -1,70 +1,31 @@
 <template>
   <PageHeader title="" />
-  <h1>Afesis</h1>
-  <p>Afesis es nuestra primera aventura como equipo, una visual novel con suspense para jóvenes
-    adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las
-    sombras que amenazan la fe y siente el peso de cada elección.
-  </p>
+  <h1>{{ i18nState.textos.afesisGames }}</h1>
+  <p>{{ i18nState.textos.descriptionAfesis }}</p>
 
   <div class="banner_family"></div>
 
   <section>
-    <h2>Pitch</h2>
-    <p>Afesis es una visual novel con suspense para jóvenes adultos en la que la
-      tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras
-      que amenazan la fe y siente el peso de cada elección. </p>
-    <h2>Description</h2>
-    <p>Mientras que otros videojuegos cristianos abogan por ofrecer una
-      experiencia dedicada al público creyente, tomando relatos de la Biblia como propias
-      que contar en sus juegos, Áfesis busca no solo acercarse a este público cristiano,
-      sino que también intenta atraer a un público general amante de los juegos
-      narrativos. Esto lo hace adoptando una trama actual, envuelta en el mensaje del
-      perdón cristiano. No necesitas conocer el cristianismo ni practicarlo para poder
-      disfrutar del juego, pero para los cristianos este juego es una Oda a su Fe.
-      El juego ofrece una experiencia enriquecedora donde se ponen en valor los valores
-      cristianos, el peligro de las adicciones, cómo una mala gestión de estas puede
-      repercutir negativamente no solo en ti mismo sino en tu entorno y cómo Dios puede
-      ayudarnos a reencaminar nuestra vida. </p>
+    <h2>{{ i18nState.textos.pitch }}</h2>
+    <p>{{ i18nState.textos.pitchText }}</p>
+    <h2>{{ i18nState.textos.aboutAfesis }}</h2>
+    <p>{{ i18nState.textos.aboutAfesisText }}</p>
 
 
-    <h2>History</h2>
-    <p>Esta historia trata sobre cómo el perdón de Dios es lo que libera al ser
-      humano del pecado y le permite avanzar en su vida y alcanzar la felicidad por medio
-      del amor. Nosotros jugamos como Dimas, que, convertido en todo un adulto que
-      malvive por su cuenta, lleva descontento con su vida mucho tiempo. Habita en un
-      pequeño apartamento de su familia cerca de la Ferretería Durán e Hijos. Cuando su
-      madre, por heridas del pasado, no quiere tener a su hijo cerca y desesperada le da
-      un ultimátum, aparece Gestas. Nuestro hermano mayor nos propone cometer un
-      delito aprovechando la precaria situación: entre los dos robaremos una Reliquia de
-      la Familia Durán y compartiremos la riqueza. Mientras Gestas disfruta de este estilo
-      de vida, nosotros pronto sentiremos el hastío de quien se deja arrastrar por sus
-      impulsos. Y una vez perdida esa falsa sensación de libertad, intentaremos enmendar
-      nuestros errores. Pero para elegir el bien, hay que conocerlo. </p>
+    <h2>{{ i18nState.textos.history }}</h2>
+    <p>{{ i18nState.textos.historyText }}</p>
 
-    <h2>Features</h2>
-    <p>-Sistema de tiempo: Explora la vida cotidiana de esta familia durante la
-      madrugada, mediodía, tarde y noche. Atiende (o no) a los eventos y explora
-      el pueblo de Valdejara.<br><br>
+    <h2>{{ i18nState.textos.features }}</h2>
+    <p>{{ i18nState.textos.feature1 }}.</p>
+    <br>
+    <p>{{ i18nState.textos.feature2 }}</p>
+    <br>
+    <p>{{ i18nState.textos.feature3 }}</p>
+    <br>
+    <p>{{ i18nState.textos.feature4 }}</p>
 
-      -Gestión de ánimo, estrés y adicción: Hacer malabares entre oficio, descanso
-      y vicios es algo que muchos pueden entender. Como Dimas, deberás
-      adentrarte en las complicadas dependencias que hacen de ti quien quieres o
-      no ser. <br><br>
-
-      -Crafteo: En la Ferretería Durán e Hijos hay muchos gadgets a tu disposición,
-      pero tu recurso más valioso siempre será tu ingenio. Craftea como Dimas,
-      cobra a tus clientes (o tímalos) y arregla cerraduras como buen manitas que
-      eres. <br><br>
-
-      -Vínculos: La vida en Valdejara es más amena con compañía, pero no todos
-      somos buenos o queremos socializar. Tal vez haya una Dulcinea alternativa
-      esperándote, un carnicero de gran corazón y músculo, o un kioskero de
-      acento interesante y un poco desconfiado, con los que pasar la tarde en el
-      pueblo.
-    </p>
-
-    <h2>Idiomas disponibles</h2>
-    <p> Español castellano, Inglés, Ruso </p>
+    <h2>{{ i18nState.textos.lang }}</h2>
+    <p>{{ i18nState.textos.langAvailable }}</p>
   </section>
   <!--
 <section class="section-presskit">
@@ -145,6 +106,7 @@
 import { ref } from 'vue';
 import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
+import { i18nState } from './../translation/state'
 
 const images = [
   '/assets/imgs/dimas_boceto.png',
