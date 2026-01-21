@@ -253,13 +253,13 @@ a {
     background-image: url("assets/imgs/linktree.png");
     }
     .btn-instagram {
-    background-image: url("assets/imgs/inst.png");
+    background-image: url("assets/imgs/instagram.png");
     }
     .btn-twitter {
     background-image: url("assets/imgs/twitter.png");
     }
     .btn-tiktok {
-    background-image: url("assets/imgs/tok.png");
+    background-image: url("assets/imgs/tik-tok.png");
     }
     .social-buttons a:hover {
       background-color: white;
