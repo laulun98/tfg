@@ -12,7 +12,7 @@
         <p>{{ i18nState.textos.aftos }}</p>
 
         
-        <RouterLink to="/careers" class="red-link">¿Quieres unirte a nosotros?</RouterLink>
+        <RouterLink to="/careers" class="yellow-link">¿Quieres unirte a nosotros?</RouterLink>
         
     </div>
     <div class="banner-noche">
