@@ -27,7 +27,7 @@
   <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
   <!-- formulario -->
   <section style="position: relative;" class="contact-container">
-    <form action="#" method="post">
+    <form action="/forms/ContactUsForm.php" method="post">
 
       <div class="form-group">
         <label for="nombre">{{ i18nState.textos.name }}</label>
