@@ -7,7 +7,7 @@
         </div>
     </div>
     <div style="display:flex; flex-direction: column; justify-content: center; margin-bottom: 100px;">
-        <div style="display:flex; flex-direction: column; justify-content: center;">
+        <div style="display:flex; flex-direction: column; justify-content: center; margin-left: 150px;">
             <h1>{{ i18nState.textos.kick }}</h1>
             <h3>{{ i18nState.textos.kickstarter }}</h3>
         </div>

@@ -1,77 +1,81 @@
 <template>
     <PageHeader title="careers" />
-<h1>Bienvenido a Careers</h1>´
-<section style="position: relative;" class="careers-container">
+<h1 style="text-align: center;">Bienvenido a Careers</h1>
+<section style="position: relative; max-width:900px; margin:auto; padding:30px; border-radius:6px;" >
     <form action="#" method="post">
-        <h2>Información personal</h2>
-      <div class="careers-group">
-        <label for="nombre"></label>
-        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-      </div>
+<div class="ea-container">
+<div class="ea-upload">Choose a file or drop it here<br><small>10MB size limit</small></div>
+<button class="ea-btn-primary">Enviar</button>
+</div>
 
-       <div class="careers-group">
-        <label for="Primer apellido*"></label>
-        <input type="text" id="apellido" name="apellido" placeholder="Primer apellido" required>
-      </div>
 
-      <div class="careers-group">
-        <label for="Segundo apellido*"></label>
-        <input type="text" id="apellidoDos" name="apellidoDos" placeholder="Segundo apellido" required>
-      </div>
+<h3>Información Personal</h3>
+<div class="ea-grid-2">
+<div>
+<label>Nombre *</label>
+<input type="text" />
+</div>
+<div>
+<label>Apellidos *</label>
+<input type="text" />
+</div>
+<div>
+<label>Email *</label>
+<input type="email" />
+</div>
+<div>
+<label>Confirma tu email *</label>
+<input type="email" />
+</div>
+<div>
+<label>Ciudad *</label>
+<input type="text" />
+</div>
+<div>
+<label>Teléfono *</label>
+<input type="tel" />
+</div>
+</div>
 
-      <div class="careers-group">
-        <label for="correo"></label>
-        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
-      </div>
 
-      <div class="careers-group">
-        <label for="Verifique su correo"></label>
-        <input type="email" id="vericorreo" name="vericorreo" placeholder="tucorreo@ejemplo.com" required>
-      </div>
+<h3>Experiencia <button class="ea-add-btn">+ Add</button></h3>
+<h3>Educación <button class="ea-add-btn">+ Add</button></h3>
 
-      <div class="careers-group">
-        <label for="Ciudad"></label>
-        <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required>
-      </div>
 
-      <div class="careers-group">
-        <label for="Teléfono"></label>
-        <textarea id="telefono" name="telefono" placeholder="Teléfono" required></textarea>
-      </div>
+<h3>Tus perfiles RRSS</h3>
+<div class="ea-grid-2">
+<div>
+<label>LinkedIn</label>
+<input type="url" />
+</div>
+<div>
+<label>Facebook</label>
+<input type="url" />
+</div>
+<div>
+<label>X (Twitter)</label>
+<input type="url" />
+</div>
+<div>
+<label>Website</label>
+<input type="url" />
+</div>
+</div>
 
-      <h2>Experiencia</h2>
 
-      <h2>Educación</h2>
+<h3>CV</h3>
+<div class="ea-upload">Choose a file or drop it here<br><small>10MB size limit</small></div>
 
-      <h2>Redes Sociales</h2>
-      <div class="careers-group">
-        <label for="Linkedin"></label>
-        <textarea id="linkedin" name="linkedin" placeholder="Escribe aquí..." ></textarea>
-      </div>
 
-      <div class="careers-group">
-        <label for="X (aka Twitter)"></label>
-        <textarea id="x" name="x" placeholder="Escribe aquí..." ></textarea>
-      </div>
+<h3>¿Algún comentario para el equipo?</h3>
+<textarea placeholder="Déjanos saber por qué quieres unirte al equipo"></textarea>
 
-      <div class="careers-group">
-        <label for="Página Web"></label>
-        <textarea id="paginaWeb" name="paginaWeb" placeholder="Escribe aquí..." ></textarea>
-      </div>
 
-       <div class="careers-group">
-        <label for="Instagram"></label>
-        <textarea id="instagram" name="instagram" placeholder="Escribe aquí..." ></textarea>
-      </div>
+<div class="ea-footer">
+</div>
 
-      <h2>Escribe un mensaje al equipo</h2>
-      <p>¿Por qué te gustaría trabajar aquí?</p>
-      <div class="careers-group">
-        <label for="mensaje"></label>
-        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
-      </div>
       
-      <button type="submit"></button>
+      <button type="submit">Enviar</button>
 
     </form>
   </section>
