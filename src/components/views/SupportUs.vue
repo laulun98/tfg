@@ -7,14 +7,14 @@
         </div>
     </div>
     <div style="display:flex; flex-direction: column; justify-content: center; margin-bottom: 100px;">
-        <div style="display:flex; flex-direction: column;">
+        <div style="display:flex; flex-direction: column; justify-content: center;">
             <h1>{{ i18nState.textos.kick }}</h1>
             <h3>{{ i18nState.textos.kickstarter }}</h3>
         </div>
         <div style="display:flex; justify-content: center">
             <LinkedImage :src="'assets/imgs/kickstarter.png'" :link="'https://www.kickstarter.com/'" :alt="'kickstarter'" />
         </div>
-        <div class="kickstarter"> <img class="kickstarter" src="/assets/imgs/KickstarterProvisional.png"></div>
+        <div class="kickstarter"> <img class="kickstarter" src="/assets/imgs/Web_KickStarter_Portada.png"></div>
     </div>
     <!--
     <div style="display:flex; flex-direction: row; justify-content: center; margin-right: 150px; margin-left: 120px">

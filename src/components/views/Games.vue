@@ -54,14 +54,15 @@
     <div class="gallery">
       <img v-for="(img, index) in images" :key="index" :src="img" :alt="'Screenshot ' + (index + 1)" @click="open(img)"
         :class="{ active: activeImage === img }" />
+        </div>
       <div v-if="selected" class="overlay" @click="selected = null">
         <img :src="selected" class="big-image" />
       </div>
-    </div>
+    
   </section>
   <section>
     <div class="conoce">
-      <img src="/assets/imgs/ConoceDimas.png">
+      <img src="/assets/imgs/ConoceDimas (1).png">
     </div>
 
     <p>Nuestro protagonista Dimas es un adulto que malvive por su cuenta y lleva descontento con
@@ -69,7 +70,7 @@
       (y de tu guía) para encontrar el camino. </p>
 
     <div class="conoce">
-      <img src="/assets/imgs/ConoceValdejara.png">
+      <img src="/assets/imgs/ConoceValdejara (1).png">
     </div>
 
     <p>Valdejara es un pueblo ficticio detenido en el tiempo, se encuentra en la salida de un valle

@@ -419,9 +419,16 @@ a {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, auto);
+  gap: 20px;
   max-width: 80%;
   align-content: center;
   align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  margin: 20px auto;
+  object-fit: cover;
+  object-position: 30% 10%;
+  
 }
 
 .gallery img {
@@ -437,6 +444,7 @@ a {
   margin-top: 20px;
   object-fit: cover;
   object-position: 30% 10%;
+  cursor: pointer;
 }
 
 .gallery img:hover {
@@ -451,12 +459,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+   z-index: 1000;
 }
 
 .big-image {
   max-width: 90%;
   max-height: 90%;
-  scale: 2
+  scale: 2;
+  border-radius: 16px;
 }
 
 .gallery img.active {
