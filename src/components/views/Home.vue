@@ -25,7 +25,7 @@
     </iframe>
   </div>
 </section> -->
-<h2>{{ i18nState.textos.join }}</h2> <!--  <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
+<!--<h2>{{ i18nState.textos.join }}</h2>   <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
 
 </template>
 

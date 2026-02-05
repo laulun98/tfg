@@ -16,7 +16,7 @@
         </div>
         <div class="kickstarter"> <img class="kickstarter" src="/assets/imgs/Web_KickStarter_Portada.png"></div>
     </div>
-    <!--
+    
     <div style="display:flex; flex-direction: row; justify-content: center; margin-right: 150px; margin-left: 120px">
         <div>
             <img src="/assets/imgs/dimas-presenta-1.png" alt="Dimas" style="max-width: 85%; max-height: 85%;"/>
@@ -41,12 +41,12 @@
         </div>
         
     </div>
-    -->
-    <div style="display: flex; justify-self: center; margin-top: 40px; margin-bottom: 80px;">
+     <div><RouterLink to="/merchandise" class="support-btn">Merchandise</RouterLink></div>
+    <!--<div style="display: flex; justify-self: center; margin-top: 40px; margin-bottom: 80px;">
         <div style="background-color: #FBD856; width:650px; height:90px; border-radius: 20px; display:flex; justify-content: center;">
             <h1 style="display:flex; width:600px; color:rgba(18, 41, 75, 1);">Merchandising coming soon!</h1>
         </div>
-    </div>
+    </div> -->
 
      <div class="banner-noche">
     </div>

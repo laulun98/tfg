@@ -7,9 +7,10 @@ import Games from '../components/views/Games.vue'
 import Home from '../components/views/Home.vue'
 import ContactUs from '../components/views/ContactUs.vue'
 import Privacy from '../components/views/Privacy.vue'
-import Afesios from '../components/views/games_views/Afesis.vue'
+import Afesis from '../components/views/games_views/Afesis.vue'
 import Careers from '../components/views/Careers.vue'
 import Legal from '../components/views/Legal.vue'
+import Merchandise from '../components/views/Merchandise.vue'
 
 const routes = [
   { 
@@ -46,9 +47,9 @@ const routes = [
     component: Privacy,
   },
   {
-    path: '/afesios',
-    name: '/afesios',
-    component: Afesios,
+    path: '/afesis',
+    name: '/afesis',
+    component: Afesis,
   },
   {
     path: '/careers',
@@ -60,6 +61,12 @@ const routes = [
     path: '/legal',
     name: '/legal',
     component: Legal,
+  },
+
+  {
+    path: '/merchandise',
+    name: '/merchandise',
+    component: Merchandise,
   },
 ]
 
