@@ -11,9 +11,6 @@
                 <RouterLink to="/about">About Us</RouterLink>
             </div>
             <div class="links">
-                <RouterLink to="/support">Support Us</RouterLink>
-            </div>
-            <div class="links">
                 <RouterLink to="/games">Games</RouterLink>
             </div>
             <div class="links">

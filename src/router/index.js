@@ -6,11 +6,6 @@ import SupportUs from '../components/views/SupportUs.vue'
 import Games from '../components/views/Games.vue'
 import Home from '../components/views/Home.vue'
 import ContactUs from '../components/views/ContactUs.vue'
-import Privacy from '../components/views/Privacy.vue'
-import Afesis from '../components/views/games_views/Afesis.vue'
-import Careers from '../components/views/Careers.vue'
-import Legal from '../components/views/Legal.vue'
-import Merchandise from '../components/views/Merchandise.vue'
 
 const routes = [
   { 
@@ -27,11 +22,6 @@ const routes = [
     component: AboutUs,
   },
   {
-    path: '/support',
-    name: 'support',
-    component: SupportUs,
-  }, 
-  {
     path: '/games',
     name: '/games',
     component: Games,
@@ -41,33 +31,6 @@ const routes = [
     name: '/contact',
     component: ContactUs,
   }, 
-  {
-    path: '/privacy',
-    name: '/privacy',
-    component: Privacy,
-  },
-  {
-    path: '/afesis',
-    name: '/afesis',
-    component: Afesis,
-  },
-  {
-    path: '/careers',
-    name: '/careers',
-    component: Careers,
-  },
-
-{
-    path: '/legal',
-    name: '/legal',
-    component: Legal,
-  },
-
-  {
-    path: '/merchandise',
-    name: '/merchandise',
-    component: Merchandise,
-  },
 ]
 
 const router = createRouter({
