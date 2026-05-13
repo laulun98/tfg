@@ -1,8 +1,10 @@
 <template>
   <div class="social-buttons">
+    <!--
     <a class="btn-linktree" href="https://linktr.ee/aftosstudio" target="_blank" title="Linktree">
       <i class="fas fa-link"></i>
     </a>
+    -->
     <a class="btn-instagram" href="https://www.instagram.com/aftos_studio/" target="_blank" title="Instagram">
       <i class="fab fa-instagram"></i>
     </a>
