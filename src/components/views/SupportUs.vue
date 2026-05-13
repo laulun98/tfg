@@ -39,17 +39,8 @@
             </div>
         </div>
         </div>
-        
     </div>
-     <div><RouterLink to="/merchandise" class="support-btn">Merchandise</RouterLink></div>
-    <!--<div style="display: flex; justify-self: center; margin-top: 40px; margin-bottom: 80px;">
-        <div style="background-color: #FBD856; width:650px; height:90px; border-radius: 20px; display:flex; justify-content: center;">
-            <h1 style="display:flex; width:600px; color:rgba(18, 41, 75, 1);">Merchandising coming soon!</h1>
-        </div>
-    </div> -->
-
-     <div class="banner-noche">
-    </div>
+    <div class="banner-noche"></div>
     
 </template>
 

@@ -27,23 +27,6 @@
     <h2>{{ i18nState.textos.lang }}</h2>
     <p>{{ i18nState.textos.langAvailable }}</p>
   </section>
-  <!--
-<section class="section-presskit">
-  <h2>Trailers</h2>
-  <p class="subtitle">
-    Afesis
-    <a href="#" target="_blank">YouTube</a>
-  </p>
-
-  <div class="video-container-presskit">
-    <iframe 
-      src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-      title="YouTube video player" 
-      allowfullscreen>
-    </iframe>
-  </div>
-</section>
--->
   <section class="section-presskit">
     <h2>Screenshots</h2>
 

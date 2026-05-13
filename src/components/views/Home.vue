@@ -9,23 +9,6 @@
         <br>
         <RouterLink to="/games" class="yellow-link">{{ i18nState.textos.presskit }}</RouterLink>
     </div>
-   <!--
-    <section class="section-presskit">
-  <h2>Trailers</h2>
-  <p class="subtitle">
-    Afesis
-    <a href="#" target="_blank">YouTube</a>
-  </p>
-
-  <div class="video-container-presskit">
-    <iframe 
-      src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-      title="YouTube video player" 
-      allowfullscreen>
-    </iframe>
-  </div>
-</section> -->
-<!--<h2>{{ i18nState.textos.join }}</h2>   <a class="linkDiscord" href="https://dicord.com" target="_blank" title="Botón de discord">-->
 
 </template>
 
