@@ -7,7 +7,6 @@
         <P>{{ i18nState.textos.description }}</P>
         <p><RouterLink to="/about" class="yellow-link">{{ i18nState.textos.more }}</RouterLink></P>
         <br>
-        <RouterLink to="/games" class="yellow-link">{{ i18nState.textos.presskit }}</RouterLink>
     </div>
 
 </template>

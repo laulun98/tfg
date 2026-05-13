@@ -10,13 +10,8 @@
 
         <h1>{{ i18nState.textos.born }}</h1>
         <p>{{ i18nState.textos.aftos }}</p>
-
-        
-        <RouterLink to="/careers" class="yellow-link">¿Quieres unirte a nosotros?</RouterLink>
-        
     </div>
-    <div class="banner-noche">
-    </div>
+    <div class="banner-noche"></div>
 </template>
 
 <script setup>
