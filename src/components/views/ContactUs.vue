@@ -1,12 +1,13 @@
 <template>
   <PageHeader title="" />
-
+  <!-- 
   <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
   <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
   <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
 
-
+  
   <div style="width: 90%; height: 2px; background-color: #FFF ; margin-left: 70px;"></div>
+  -->
 
   <!--<div class="banner-noche"></div>-->
 </template>
