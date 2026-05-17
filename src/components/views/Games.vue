@@ -83,11 +83,13 @@ import PageHeader from '../ui/PageHeader.vue';
 import LinkedImage from './../ui/LinkedImage.vue';
 import { i18nState } from './../translation/state'
 const images = [
-  '/assets/imgs/dimas_boceto.png',
-  '/assets/imgs/dimas4.png',
-  '/assets/imgs/pascua_sketches.png',
-  '/assets/imgs/religiosos.png',
-  '/assets/imgs/vendedores2 (1).png'
+  '/assets/imgs/halloween.png',
+  '/assets/imgs/pesadilla.png',
+  '/assets/imgs/SpiderDemon.png',
+  '/assets/imgs/TheVessel.png',
+  '/assets/imgs/comic.png',
+  '/assets/imgs/post.png'
+
 ]
 
 const selected = ref(null)

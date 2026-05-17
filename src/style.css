@@ -4,7 +4,7 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono";
+  font-family: "Roboto";
 }
 
 body {
@@ -72,7 +72,7 @@ button:hover {
 }
 
 .yellow-link {
-  color: #FBD856;
+  color: #fb7256;
   font-weight: bold;
 }
 
@@ -167,7 +167,8 @@ nav {
 
 /* PAGE FOOTER */
 .ui-footer {
-  background-image: "/assets/imgs/fondoBoton.PNG";
+  background-image: url("/assets/imgs/fondoBoton.png");
+  display: flex;
   padding: 20px;
   margin-top: 50px;
   font-weight: lighter;
@@ -250,7 +251,7 @@ nav {
 .contact-card h3 {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fcd857;
+  color: #fb7256;
 }
 
 .contact-card p {
