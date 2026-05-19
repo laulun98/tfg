@@ -32,32 +32,10 @@ label {
   color: #FFF;
 }
 
-input,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-size: 15px;
-  transition: 0.2s ease;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
-  outline: none;
-}
-
-textarea {
-  resize: vertical;
-  height: 50px;
-}
-
 button {
   width: 100%;
   padding: 14px;
-  background-color: #007bff;
+  background: linear-gradient(#c0281e, #900d69);
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -65,10 +43,6 @@ button {
   cursor: pointer;
   font-weight: 600;
   transition: 0.2s;
-}
-
-button:hover {
-  background-color: #0056b3;
 }
 
 .yellow-link {
@@ -166,22 +140,9 @@ nav {
 
 
 /* PAGE FOOTER */
-.ui-footer {
-  background-image: url("/assets/imgs/fondoBoton.png");
-  display: flex;
-  padding: 20px;
-  margin-top: 50px;
-  font-weight: lighter;
-
-}
-
 .ui-footer a {
   font-weight: lighter;
   font-size: medium;
-}
-
-.ui-footer h2 {
-  font-size: large;
 }
 
 /* SOCIAL MEDIA BUTTONS*/
@@ -229,55 +190,6 @@ nav {
   background-color: white;
   color: #0d1117;
   transform: scale(1.1);
-}
-
-/* CONTACT US */
-.form-group {
-  margin-bottom: 10px;
-}
-
-.contact-section {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 40px;
-  gap: 30px;
-}
-
-.contact-card {
-  width: 30%;
-}
-
-.contact-card h3 {
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fb7256;
-}
-
-.contact-card p {
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-/* VIDEO RESPONSIVE */
-.video-container-presskit {
-  position: relative;
-  width: 80%;
-  padding-bottom: 56.25%;
-  /* 16:9 aspect ratio */
-  margin-top: 10px;
-  margin-left: 120px;
-  height: 120px;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #000;
-}
-
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 120px;
-  border: none;
 }
 
 /* DOWNLOAD BUTTON */
@@ -406,39 +318,6 @@ nav {
   margin-top: 60px;
 }
 
-/*PAGE FOOTER*/
-.footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
-  justify-items: center;
-}
-
-.footer>div {
-  min-width: 180px;
-}
-
-.footer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.footer-column {
-  min-width: 180px;
-  text-align: left;
-}
-
-.footer-column h2 {
-  margin-bottom: 12px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 /*banner abajo*/
 .banner-noche {
   position: relative;
@@ -450,28 +329,6 @@ nav {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-size: 15px;
-  transition: 0.2s ease;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
-  outline: none;
-}
-
-textarea {
-  resize: vertical;
-  height: 50px;
 }
 
 button {
@@ -494,19 +351,4 @@ button:hover {
 label {
   font-size: 14px;
   font-weight: bold;
-}
-
-input,
-textarea,
-select {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-textarea {
-  min-height: 120px;
-  resize: vertical;
 }
