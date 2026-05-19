@@ -2,7 +2,7 @@
     <PageHeader title="" :bannerStyle="'banner'" :page="'/home'"/>
     <Galeria :images="images"/>
     <div class="home-content">
-        <h1>{{ i18nState.textos.title }}</h1><!-- Aftos es un estudio madrileño de desarrollo de videojuegos. -->
+        <h1>{{ i18nState.textos.title }}</h1>
         <h1 style="margin-top: 0px">{{ i18nState.textos.afesis }}</h1>
         <P>{{ i18nState.textos.description }}</P>
         <p><RouterLink to="/about" class="yellow-link">{{ i18nState.textos.more }}</RouterLink></P>

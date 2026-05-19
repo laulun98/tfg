@@ -1,9 +1,9 @@
 {
     "ES": {
         "/home": {
-            "title": "Aftos es un estudio madrileño de desarrollo de videojuegos.",
-            "afesis": "Creando 'Afesis'",
-            "description": "Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran.",
+            "title": "Duskflowerz, artista independiente.",
+            "afesis": "Creando recuerdos",
+            "description": "Soy Paula, Paula Murillo. Artista nacida en Madrid capital, donde las cosas van rápido y el arte de siglos atrás puede verse en nuestros amados museos.",
             "more": "Leer más",
             "community": "¡Únete a nuestra comunidad!",
             "presskit": "Presskit de Afesis",
@@ -17,12 +17,6 @@
             "developing": "Nos encontramos desarrollando Afesis, nuestra primera aventura como equipo, una visual novel con suspense para jóvenes adultos en la que la tradición cristiana cobra vida. Descifra pasajes bíblicos, enfréntate a las sombras que amenazan la fe y siente el peso de cada elección.",
             "born": "¿De dónde nace Aftos Studio?",
             "aftos": "Con gran inquietud por crearse un hueco en la industria, nuestro director Javier Pardo de Santayana creó Aftos con una misión clara en mente: dar una oportunidad a juniors que como él, estaban ansiosos por crear. Aftos nace del griego αὐτός que significa literalmente “ÉL”. Es un demostrativo que junto al logo simboliza a Dios. En la creación de este estudio, buscamos transmitir la alegría del evangelio y los valores cristianos del perdón, la paciencia y el amor de Dios a los jóvenes de hoy en día. Con una visión de actualidad y de esfuerzo, abriendo esta narrativa a todos los públicos, e invitando a jugar a públicos más tradicionales."
-        },
-        "/support": {
-            "help": "¡Ayúdanos a seguir creando juegos!",
-            "descriptionSupport": "Somos un equipo formado por juniors pero con una misión clara: abrirnos paso en el mercado y lanzar un producto de calidad. Si quieres apoyarnos:",
-            "kick": "¡Se viene Kickstarter!",
-            "kickstarter": "¡Dentro de poco podréis colaborar através de Kickstarter, obtener recompensas y mucho más!"
         },
         "/games": {
             "afesisGames": "Afesis",
@@ -40,42 +34,13 @@
             "feature4": "-Vínculos: La vida en Valdejara es más amena con compañía, pero no todos somos buenos o queremos socializar. Tal vez haya una Dulcinea alternativa esperándote, un carnicero de gran corazón y músculo, o un kioskero de acento interesante y un poco desconfiado, con los que pasar la tarde en el pueblo.",
             "lang": "Idiomas disponibles",
             "langAvailable": "Español castellano, Inglés, Ruso"
-        },
-        "/contact": {
-            "contactUs": "¡Contáctanos!",
-            "support": "SUPPORT:",
-            "supportText": "¿Necesitas ayuda o tienes alguna duda sobre nuestra empresa o juego? Escríbenos.",
-            "press": "PRESS:",
-            "pressText": "Aquí tenemos nuestro presskit. Si queréis ver nuestro proceso",
-            "presskitLink": "presskit",
-            "merch": "MERCH:",
-            "merchText": "¡Otra forma de apoyarnos sería comprando nuestro merch! Con diseños originales de nuestro juego",
-            "name": "Nombre",
-            "email": "Correo electrónico",
-            "subject": "Asunto",
-            "message": "Mensaje",
-            "send": "Enviar",
-            "who": "¿Quiénes somos?",
-            "whoText": "Somos un estudio de videojuegos y creación audiovisual que advoca por la cultura, el talento de jóvenes creadores y las historias que inspiran. Queremos crear oportunidades para los juniors en la industria y compartir ideas frescas y novedosas, centrándonos en los valores y la moral cristiana.",
-            "release": "¿Cuál es el juego que vais a lanzar?",
-            "releaseText": "Nuestro primer título es Afesis: Los cuatro peldaños, un juego indie original que combina elementos de aventura, exploración y narrativa para ofrecer una experiencia inmersiva y diferente.",
-            "when": "¿Cuándo estará disponible el juego?",
-            "whenText": "Planeamos lanzar el juego a mediados de 2026. Publicaremos la fecha exacta en nuestras redes.",
-            "platforms": "¿En qué plataformas estará disponible el juego?",
-            "platformsText": "Por ahora apuntamos a PC (Windows/Linux/macOS). Estamos evaluando llevarlo a consolas según la demanda y los recursos del estudio.",
-            "demo": "¿Habrá una demo disponible?",
-            "demoText": "Sí, estamos trabajando en una demo jugable para que puedas probar una parte del juego antes del lanzamiento. Avisaremos en cuanto esté disponible.",
-            "langContact": "¿En qué idiomas estará disponible el juego?",
-            "langContactText": "Inicialmente estará disponible en español e inglés, con un primer parche de idioma planeado de cara a la traducción a ruso. Más adelante consideraremos añadir más idiomas si la comunidad lo solicita.",
-            "supportProject": "¿Cómo puedo apoyar el proyecto?",
-            "supportProjectText": "¡Gracias! En la sección de Support us encontrarás formas de apoyarnos de forma monetaria, y por supuesto, puedes apoyarnos siguiéndonos en redes, compartiendo nuestro contenido, añadiendo el juego a tu lista de deseados y dejando comentarios o sugerencias."
         }
     },
     "EN": {
         "/home": {
-            "title": "Aftos is a Madrid-based video game development studio.",
-            "afesis": "Creating 'Afesis'",
-            "description": "We are a video game and audiovisual creation studio that advocates for culture, the talent of young creators, and inspiring stories.",
+            "title": "Duskflowerz, independient artist.",
+            "afesis": "Creating memories",
+            "description": "I am Paula, Paula Murillo. An artist born in Madrid, where things go fast and the art from centuries ago can be seen in our loved museums.",
             "more": "Read more",
             "community": "Join our community!",
             "presskit": "Afesis Presskit",
@@ -89,12 +54,6 @@
             "developing": "We are currently developing Afesis, our first adventure as a team, a suspenseful visual novel for young adults in which Christian tradition comes to life. Decipher biblical passages, confront the shadows that threaten faith, and feel the weight of each choice.",
             "born": "Where did Aftos Studio come from?",
             "aftos": "Eager to make a name for himself in the industry, our director Javier Pardo de Santayana created Aftos with a clear mission in mind: to give opportunities to juniors who, like him, were eager to create. Aftos comes from the Greek αὐτός, which literally means “HE.” It is a demonstrative that, together with the logo, symbolizes God. In creating this studio, we seek to convey the joy of the gospel and the Christian values of forgiveness, patience, and God's love to today's youth. With a vision of modernity and effort, we open this narrative to all audiences and invite more traditional audiences to play."
-        },
-        "/support": {
-            "help": "Help us keep creating games!",
-            "descriptionSupport": "We are a team of juniors with a clear mission: to make our way in the market and launch a quality product. If you want to support us:",
-            "kick": "Kickstarter is coming!",
-            "kickstarter": "Soon you will be able to collaborate through Kickstarter, get rewards and much more!"
         },
         "/games": {
             "afesisGames": "Afesis",
@@ -112,35 +71,6 @@
             "feature4": "-Connections: Life in Valdejara is more enjoyable with company, but not all of us are good at or want to socialize. Perhaps there is an alternative Dulcinea waiting for you, a butcher with a big heart and muscles, or a kiosk owner with an interesting accent and a bit of mistrust, with whom you can spend the afternoon in town.",
             "lang": "Languages available",
             "langAvailable": "Castillian Spanish, English, Russian"
-        },
-        "/contact": {
-            "contactUs": "Contact us!",
-            "support": "SUPPORT:",
-            "supportText": "Need any help? Have doubts about our company or games? Let us know!",
-            "press": "PRESS:",
-            "pressText": "Here you can see and download our presskit",
-            "presskitLink": "presskit",
-            "merch": "MERCH:",
-            "merchText": "Another way to help us is buying our merch with our game's original designs!",
-            "name": "Name",
-            "email": "Email",
-            "subject": "Subject",
-            "message": "Message",
-            "send": "Send",
-            "who": "Who are we?",
-            "whoText": "We are a video game and audiovisual creation studio that advocates for culture, the talent of young creators, and inspiring stories. Focused on addressing moral dilemmas based on Christian faith, from a fresh, open and young perspective. We want to create opportunities for juniors in the industry and share fresh and innovative ideas, focusing on values and Christian morality. We are developing our first project, centered on exploring the concept of forgiveness.",
-            "release": "What game are you going to release?",
-            "releaseText": "Our first title is 'Afesis: the four steps', an original indie game that combines adventure, exploration and narration that offer a different inmersive experience",
-            "when": "When will the game be available?",
-            "whenText": "We plan on releasing the game mid 2026. We'll publish the exact date on our socials",
-            "platforms": "On which platforms will the game be available?",
-            "platformsText": "We are releasing it on PC (Windows/Linux/MacOs). We'll consider releasing it on other platforms depending on demand and the studios' resources",
-            "demo": "Will there be a demo?",
-            "demoText": "Yes, we're working on it. You will be able to test our game before the release! We'll update you whe it is available.",
-            "langContact": "On which languages will the game be released?",
-            "langContactText": "Initially, it will be in Spanish and English. However, a Russian patch is planned for future updates. We'll consider adding other languages if the community request it.",
-            "supportProject": "How can I support the project?",
-            "supportProjectText": "Thank you! In the 'Support Us' section you'll find ways of helping us! You can also support us by following us on social media, sharing our content and adding our game to your wishlist, leaving comments or suggestions!"
         }
     }
 }
