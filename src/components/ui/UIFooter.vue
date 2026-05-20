@@ -1,9 +1,7 @@
 <template>
     <div class="ui-footer" style="display:flex; flex-direction: column;">
         <div style="display:flex;  justify-content: center;">
-            <div style="display:flex; flex-direction: column;">
-                <div><SocialButton/></div>
-            </div>
+            <div><SocialButton/></div>
         </div>
         <div>
             <div style="display: flex; flex-direction: row; justify-content: space-between;">

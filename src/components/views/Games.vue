@@ -43,28 +43,6 @@
       </div>
     
   </section>
-  <section>
-    <div class="conoce">
-      <img src="/assets/imgs/ConoceDimas (1).png">
-    </div>
-
-    <p>Nuestro protagonista Dimas es un adulto que malvive por su cuenta y lleva descontento con
-      su vida mucho tiempo. Tras los comienzos del inicio del juego, necesitará una mano amable
-      (y de tu guía) para encontrar el camino. </p>
-
-    <div class="conoce">
-      <img src="/assets/imgs/ConoceValdejara (1).png">
-    </div>
-
-    <p>Valdejara es un pueblo ficticio detenido en el tiempo, se encuentra en la salida de un valle
-      oculto en la sierra dentro de la provincia Ávila.Valdejara hoy es un pueblo vivo, con una
-      demografía típica para su tamaño. Combina retorno de nativos, llegada de familias jóvenes
-      atraídas por calidad de vida y teletrabajo, y una pequeña comunidad de creadores y
-      emprendedores que ha tomado la antigua quesería y la vieja fábrica en el valle como
-      centros productivos y culturales. Y como es tradición, en el caso de Dimas, la Ferretería
-      familiar, Durán e Hijos. </p>
-
-  </section>
   <div style="justify-content: center; align-items:center; display: flex; flex-direction: column; margin-top: 30px;">
     <LinkedImage :src="'assets/imgs/steam.png'" :link="'https://store.steampowered.com/?l=spanish'" :alt="'steam'" />
   </div>
